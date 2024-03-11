@@ -9,7 +9,7 @@ export default function Propertyimage() {
   const onScroll = () => {
     // console.log(scrollY);
     if (scrollY > 350) {
-      propertyIMG.current.style.right = "-200px";
+      propertyIMG.current.style.right = "-100px";
       // console.log(text.current.style.marginLeft);
     }
     if (scrollY < 350) {
@@ -33,7 +33,7 @@ export default function Propertyimage() {
       alt="property"
       height={600}
       width={600}
-      className="absolute -right-[800px] -top-[80px] duration-300 invisible"
+      className="absolute -right-[800px] -top-[80px] duration-300 invisible lg:visible z-20"
     />
   );
 }
