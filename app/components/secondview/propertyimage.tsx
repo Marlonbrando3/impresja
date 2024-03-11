@@ -33,7 +33,7 @@ export default function Propertyimage() {
       alt="property"
       height={600}
       width={600}
-      className="absolute -right-[800px] -top-[80px] duration-300 invisible lg:visible z-20"
+      className="absolute -right-[800px] -top-[80px] duration-300 hidden lg:block z-20"
     />
   );
 }
