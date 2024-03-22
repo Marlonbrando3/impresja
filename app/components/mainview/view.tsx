@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Search from "../searchonmainpage/search";
 
@@ -5,8 +7,11 @@ export default function View() {
   const handleFetching = async () => {
     try {
       let res = await fetch("/api/asari", {
-        method: "GET",
-        // headers: { "Content-Type": "application/json" },
+        // method: "POST",
+        // headers: {
+        //   "Content-Type": "multipart/form-data",
+        //   "SiteAuth": "68870:9f3vO7R8BLF4ra05tgO5cD38m41a6bLniXn0C4o5",
+        // },
       });
 
       const data = await res.json();
