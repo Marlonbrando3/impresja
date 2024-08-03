@@ -11,8 +11,12 @@ import Contactform from "./components/contactfrom/contactform";
 export default function Home() {
   return (
     <>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-NNW1E1J5PY"></script>
-      <Script>
+      <Script
+        id="GTM"
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-NNW1E1J5PY"
+      ></Script>
+      <Script id="GA">
         {`
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
