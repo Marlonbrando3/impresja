@@ -8,7 +8,7 @@ export default function Text() {
 
   const onScroll = () => {
     console.log(window.innerWidth);
-    if (scrollY > 350 && window.innerWidth > 1024) {
+    if (scrollY > 180 && window.innerWidth > 1024) {
       text.current.style.visibility = "visible";
       text.current.style.marginLeft = "0px";
     }
@@ -31,12 +31,15 @@ export default function Text() {
       <div className="text-[35px] leading-10 font-semibold">
         Znajdź lub sprzedaj swoją nieruchomość
       </div>
-      <div className="w-[100px] h-[5px] bg-orange-500 my-[15px]"></div>
+      <div className="w-[100px] h-[5px] bg-blue-400 my-[15px]"></div>
       <p>
-        Na tym portalu możesz <b>bezpłatnie</b> zamieścić swoje ogłoszenie na sprzaż mieszkania w
-        południowej części woj. opolskiego. Naszym zadaniem jest połączenie poszukujących i
-        sprzedających w tym regionie Polski. Jeżeli zatem szukasz lub chcesz sprzedać mieszkanie w
-        powiatach takich jak Namysłowski, Kluczborski, Brzeski, Oleski - jesteśmy gotowi na Twoje
+        Na tym portalu możesz <b>bezpłatnie</b> zamieścić swoje ogłoszenie o sprzedaż mieszkania w
+        woj. opolskim oraz województwach ościennych. Działalność portalu głównie skupi się na
+        zaspoojaniu potrzeb osób szukającyh <strong>nieruchomości w Namysłowie</strong>,
+        <strong> nieruchomości w Sycowie</strong>, Kluczborku niemniej już w tej chwili pojawiają
+        się pierwsze zapytania o możliwość dodawania ogłoszeń w innych miastach dlatego zakładamy,
+        że rozwój portalu będzie bardzo szybki. Jeżeli zatem szukasz lub chcesz sprzedać mieszkanie
+        w powiatach takich jak Namysłowski, Kluczborski, Brzeski, Oleski - jesteśmy gotowi na Twoje
         ogłoszenia. Twojego powiatu nie ma na liście? Bez obaw daj nam znać i postaramy się umieścić
         również Twojego ogłoszenie.
       </p>

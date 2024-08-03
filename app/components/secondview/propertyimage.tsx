@@ -8,11 +8,11 @@ export default function Propertyimage() {
   const propertyIMG: any = useRef();
   const onScroll = () => {
     // console.log(scrollY);
-    if (scrollY > 350) {
+    if (scrollY > 180) {
       propertyIMG.current.style.right = "-100px";
       // console.log(text.current.style.marginLeft);
     }
-    if (scrollY < 350) {
+    if (scrollY < 180) {
       propertyIMG.current.style.right = "-800px";
       // console.log(text.current.style.marginLeft);
     }

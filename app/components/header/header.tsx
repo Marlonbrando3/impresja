@@ -1,6 +1,7 @@
 "use client";
 
 import React, { use, useState, useRef } from "react";
+import Script from "next/script";
 import Menubutton from "./menubuttons";
 import Addoffer from "./addoffer";
 import Image from "next/image";
@@ -12,7 +13,7 @@ export default function Header() {
   const openedMenu: any = useRef();
   const mobileMenu: any = useRef();
 
-  const menu = ["Strona główna", "Oferty Nieruchomości", "O nas", "Kontakt"];
+  const menu = ["Strona główna", "Oferty Nieruchomości", "O nas", "Blog", "Kontakt"];
 
   const showMenu = () => {
     closedMenu.current.style.display = "none";
@@ -39,15 +40,15 @@ export default function Header() {
           <Addoffer />
         </div>
         <div className="lg:w-[1100px] w-[90vw] mx-auto flex justify-between items-center h-full">
-          <div className="lg:w-[220px] w-[180px] h-full border-red-900 py-[20px] relative">
+          <div className="lg:w-[160px] w-[180px] h-full border-red-900 py-[10px] my-[20px] relative">
             <Image
-              src="/logo_poziome_impresja.png"
+              src="/inspira_logo.png"
               alt="impresja nieruchomości"
               fill
               objectFit="contain"
             ></Image>
           </div>
-          <div className="lg:flex hidden w-[600px] border-green-800 justify-between">
+          <div className="lg:flex hidden w-[750px] border-green-800 justify-between">
             {menu.map((el) => (
               <Menubutton key={el} element={el} />
             ))}

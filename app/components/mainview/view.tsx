@@ -23,8 +23,8 @@ export default function View() {
   };
 
   return (
-    <div className="w-full lg:h-[600px] h-[80vh] bg-[url('/background_view.jpeg')] lg:bg-center bg-cover bg-top bg- relative bg-fixed">
-      <div className="w-full h-full absolute lg:bg-gradient-to-r from-white from-35% to-white-500/[0.0] to-75%"></div>
+    <div className="w-full lg:h-[600px] h-[80vh] bg-[url('/main_bg_2.jpg')] lg:bg-center bg-cover bg-top bg- relative bg-fixed">
+      <div className="w-full h-full absolute lg:bg-gradient-to-r from-white/[0.7] from-1% to-white-500/[0.7] to-55%"></div>
       <div className="lg:w-[1100px] w-full h-full mx-auto flex items-center z-20 relative">
         {/* <button onClick={handleFetching}>Fetch from Asari</button> */}
         <Search />

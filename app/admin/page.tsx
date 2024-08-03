@@ -3,8 +3,7 @@
 import React, { useState, useCallback, useMemo, useEffect } from "react";
 import { FetchPropertiesFromAsari } from "@/app/functions/fetchpropertiesfromasari";
 import { FetchIDsFromAsari } from "@/app/functions/fetchidsfromasari";
-import { resolve } from "path";
-import { rejects } from "assert";
+import { WritePropertyAsFile } from "../functions/writePropertyAsFile";
 
 export default function Admin() {
   const [actualId, setActualId] = useState<number>(0);
@@ -27,7 +26,7 @@ export default function Admin() {
     for (const property of propertiesIdsTemp) {
       console.log(`Pobieram nieruchomość o numerze ${property}`);
       await new Promise(async (resolve, reject) => {
-        let resultTemp = await FetchPropertiesFromAsari(propertiesIdsTemp[0]);
+        let resultTemp = await FetchPropertiesFromAsari(property);
         let result = await resultTemp.list.data;
         ResultsTemp.push(result);
         await delay(3000);
@@ -35,8 +34,12 @@ export default function Admin() {
         console.log("-------");
       });
     }
+    
     console.log(`Pobrane ogłoszenia`);
     console.log(ResultsTemp);
+    //save properties as JSON file
+    await WritePropertyAsFile(ResultsTemp);
+
     setResults(ResultsTemp);
   };
 

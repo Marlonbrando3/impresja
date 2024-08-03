@@ -1,7 +1,8 @@
 export const FetchIDsFromAsari = async () => {
+  console.log("Łącze z API Asari...");
   let res = await fetch("/api/asari");
   const response = await res.json();
-  // console.log(response.status);
+  console.log("Połączono.");
 
   let offersIDsTemp: any = [];
 

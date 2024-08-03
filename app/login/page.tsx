@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 
-export default function Page() {
+export default function Login() {
   const router = useRouter();
 
   const [login, setLogin] = useState();
@@ -12,7 +12,7 @@ export default function Page() {
   const handleLoggingIn = async (e: any) => {
     e.preventDefault();
 
-    console.log(`Login ${login} pass ${pass}`);
+    // console.log(`Login ${login} pass ${pass}`);
 
     const query = JSON.stringify({
       login,
@@ -29,10 +29,12 @@ export default function Page() {
       });
 
       const data = await res.json();
-      console.log(data.status);
 
       if (data.status === 200) {
+        console.log("Zalogowano!");
         router.push("/admin");
+      } else {
+        console.log("Niepoprawny login lub hasło");
       }
     } catch (err) {
       console.log(err);

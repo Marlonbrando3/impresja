@@ -19,7 +19,7 @@ export default function Form() {
         <Pricefrom />
         <Priceto />
       </div>
-      <button className="bg-orange-500 text-white h-[50px] rounded-[5px] hover:bg-blue-500 duration-200 text-[20px]">
+      <button className="bg-orange-300 text-white h-[50px] rounded-[5px] hover:bg-blue-500 duration-200 text-[20px]">
         Szukaj
       </button>
     </form>
