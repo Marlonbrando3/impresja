@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState, useCallback, useMemo, useEffect } from "react";
-import { FetchPropertiesFromAsari } from "@/app/functions/fetchpropertiesfromasari";
-import { FetchIDsFromAsari } from "@/app/functions/fetchidsfromasari";
+import { FetchPropertiesFromAsari } from "../functions/fetchpropertiesfromasari";
+import { FetchIDsFromAsari } from "../functions/fetchidsfromasari";
 import { WritePropertyAsFile } from "../functions/writePropertyAsFile";
 
 export default function Admin() {
@@ -34,7 +34,7 @@ export default function Admin() {
         console.log("-------");
       });
     }
-    
+
     console.log(`Pobrane ogłoszenia`);
     console.log(ResultsTemp);
     //save properties as JSON file
