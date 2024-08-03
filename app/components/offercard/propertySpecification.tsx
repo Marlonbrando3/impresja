@@ -18,7 +18,7 @@ export default function PropertySpecification({ property }: Property) {
       (i === "Liczba pokoi" && property[0].floorNo) ||
       (i === "Balkon" && property[0].floorNo) ||
       (i === "Rok budowy" && property[0].floorNo);
-    return <SpecificationBarComponent data={i} param={param} />;
+    return <SpecificationBarComponent key={i} data={i} param={param} />;
   });
 
   return (

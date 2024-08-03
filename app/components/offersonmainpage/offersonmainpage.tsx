@@ -3,7 +3,9 @@ import Offerelement from "../offertelement/offerelement";
 import PropertiesFromAsari from "../../../public/properties.json";
 
 export default function Offersonmainpage() {
-  const Properties = PropertiesFromAsari.map((property) => <Offerelement property={property} />);
+  const Properties = PropertiesFromAsari.map((property, index) => (
+    <Offerelement key={index} property={property} />
+  ));
 
   return (
     <div className="lg:w-[1100px] w-[90vw] mx-auto py-[40px]">
