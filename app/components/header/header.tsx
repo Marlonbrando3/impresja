@@ -42,7 +42,7 @@ export default function Header() {
         <div className="lg:w-[1100px] w-[90vw] mx-auto flex justify-between items-center h-full">
           <div className="lg:w-[160px] w-[180px] h-full border-red-900 py-[10px] my-[20px] relative">
             <Image
-              src="/inspira_logo.png"
+              src="/impresja_logo.png"
               alt="impresja nieruchomości"
               fill
               objectFit="contain"

@@ -6,7 +6,7 @@ export default function Mobileoffice() {
       <p className="font-semibold">Biuro mobilne:</p>
       <p>Namysłów, Opole, Kluczbork</p>
       <p>tel. +48 576 65 25 25</p>
-      <p>mail. biuro@impresjanieruchomości.pl</p>
+      <p>mail. biuro@impresjahomes.pl</p>
     </div>
   );
 }
