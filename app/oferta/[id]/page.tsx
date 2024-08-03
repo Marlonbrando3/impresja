@@ -7,7 +7,7 @@ import PropertiesFromAsari from "../../../public/properties.json";
 import { useSearchParams } from "next/navigation";
 
 import OfferHeader from "../../components/offercard/offerHeader";
-import PropertySpecification from "@/app/components/offercard/propertySpecification";
+import PropertySpecification from "../../components/offercard/propertySpecification";
 
 export default function Id() {
   const searchParams = useSearchParams();
