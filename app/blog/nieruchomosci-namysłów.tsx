@@ -103,7 +103,7 @@ export default function BlogPost() {
         odpowiedzieć to cel tego artykułu został spełniony i możesz iść dalej.<br></br>
         <br></br>
         Naturalne jest to, że chcąc bezpiecznie dokonać zakupu swojego często pierwszej{" "}
-        <string>apartamentu w Hiszpanii</string> – chcemy najlepiej sami dotrzeć do poziomu wiedzy,
+        <strong>apartamentu w Hiszpanii</strong> – chcemy najlepiej sami dotrzeć do poziomu wiedzy,
         który da nam poczucie pewności i dopiero później podczas rozmów z agencjami rozmawiać jak
         &quot;równy z równym&quot; dbając o szczelność całej transakcji.
         <br></br>
