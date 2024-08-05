@@ -72,11 +72,11 @@ export default function BlogPost() {
         <br />
         działa rozwinięta sieć komunikacji publicznej, liczne szkoły, przedszkola, placówki medyczne
         oraz obiekty sportowe i rekreacyjne. W trakcie renowacji jest basen, w ostatnich latach
-        zakończono renowację 2 parków np. "Grzybek" czy też "Wyspa". Dodatkowo, Namysłów oferuje
-        szeroki wybór sklepów tj. Kaufland, Lidl, Biedronki (aż 2) Dino, niewielki pasaż handlowy
-        New Brige, restauracji i usług, co sprawia, że życie codzienne w tym mieście jest wygodne i
-        komfortowe. <strong>Nieruchomości w Namysłowie</strong> są więc idealnym wyborem dla rodzin
-        z dziećmi, młodych profesjonalistów oraz osób starszych.
+        zakończono renowację 2 parków np. &quot;Grzybek&quot; czy też &quot;Wyspa&quot;. Dodatkowo,
+        Namysłów oferuje szeroki wybór sklepów tj. Kaufland, Lidl, Biedronki (aż 2) Dino, niewielki
+        pasaż handlowy New Brige, restauracji i usług, co sprawia, że życie codzienne w tym mieście
+        jest wygodne i komfortowe. <strong>Nieruchomości w Namysłowie</strong> są więc idealnym
+        wyborem dla rodzin z dziećmi, młodych profesjonalistów oraz osób starszych.
         <br />
         <br />
         <h2> Nieruchomości w Namysłowie a Atrakcje Turystyczne i Przyrodnicze </h2>
