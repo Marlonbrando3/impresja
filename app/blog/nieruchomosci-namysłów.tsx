@@ -410,7 +410,7 @@ export default function BlogPost() {
           <LuArrowUpRightSquare />
         </Link>
       </div>
-      <ContactFormBlogPost temat="Jak kupić nieruchomość w Hiszpanii cz.1" />
+      {/* <ContactFormBlogPost temat="Jak kupić nieruchomość w Hiszpanii cz.1" /> */}
       <Footer />
     </>
   );
