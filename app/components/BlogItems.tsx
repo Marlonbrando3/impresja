@@ -36,7 +36,7 @@ export default function BlogItems() {
         ))}
       </div>
       <div className="w-3/12 h-full hidden lg:block">
-        <div>
+        {/* <div>
           <div className="font-bold py-3 text-lg">Tematyka:</div>
           {BlogTopics.map((i) => (
             <div
@@ -46,7 +46,7 @@ export default function BlogItems() {
               {i.title}
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );

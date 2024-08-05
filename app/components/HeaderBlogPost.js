@@ -1,14 +1,16 @@
+"use client";
+import * as matter from "gray-matter";
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
-import Logotype from "./images/logotype.png";
-import SearchComponent from "./searchComponent";
-import MiniMainViewBlog from "./MiniMainViewBlog";
+// import Logotype from "./images/logotype.png";
+// import SearchComponent from "./searchComponent";
+// import MiniMainViewBlog from "./MiniMainViewBlog";
 import Blog from "../data/Blog.json";
 
 export default function HeaderBlog({ temat }) {
-  const router = useRouter();
+  // const router = useRouter();
 
   let img;
   Blog.map((i) => {
@@ -38,25 +40,22 @@ export default function HeaderBlog({ temat }) {
           <h1 className="lg:w-2/3 w-full lg:text-4xl lg:text-gray-900 lg: text-normal text-3xl font-bold grow flex items-center leading-14">
             {temat}
           </h1>
-          <p className="mt-[5px]">Data artykułu: 13-01-2024</p>
+          {/* <p className="mt-[5px]">Data artykułu: 13-01-2023</p> */}
         </div>
         {/* Bottom  */}
         <div className="lg:w-10/12 w-12/12 flex justify-between mx-auto h-auto lg:flex-row flex-col">
           <div className="w-full lg:w-[400px] lg:h-[200px] h-[200px] object-cover overflow-hidden relative border rounded-xl">
             <Image
-              src="/nieruchomosci_w_hiszpanii_co_sie_zmienilo.jpeg"
+              src="/nieruchomości_namysłów.png"
               fill
-              alt="logo"
+              alt="nieruchomości Namysłów"
               objectFit="cover"
             />
           </div>
           <div id="claim" className="lg:w-1/2 font-semibold py-[10px] lg:py-0">
             <h2 className="w-full text-center">
-              Zatem zdecydowałeś/zdecydowałaś się&nbsp;aby zrobić kolejny ważny krok w drodze do
-              zakupu swojej nieruchomości w Hiszpanii. Jeśli szukasz podstawowej wiedzy o
-              działaniach i korkach w procesie zakupu - dobrze trafiłeś. Artykuł powstał z myślą o
-              takich osobach. Wierzy, że po jego przeczytaniu zrozumienie rynku oraz procesu zakupu
-              nieruchomości w Hiszpanii będą dla Ciebie jaśniejsze.
+              Dlaczego warto zamieszkać w Namysłowie? Namysłów to Urokliwe Miasto z Potencjałem
+              inwestycjnycym ale również do spokojego życia. Poznaj je nieco bliżej.
             </h2>
           </div>
         </div>
