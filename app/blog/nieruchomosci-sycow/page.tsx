@@ -21,11 +21,6 @@ export default function BlogPost() {
   const temat = "Nieruchomości Namysłów";
 
   const file = `app/components/posts/nieruchomosci-namyslow.md`;
-  const content = fs.readFileSync(file, "utf8");
-
-  const data = matter(file);
-  console.log(data.title);
-
   return (
     <>
       {/* <Newsletter /> */}
@@ -53,8 +48,7 @@ export default function BlogPost() {
           <Header />
         </div> */}
       </div>
-      <HeaderBlogPost temat={temat} link={content} />
-      <Markdown className="w-[1100px] mx-auto">{content}</Markdown>
+      <HeaderBlogPost temat={temat} />
       {/* <Blogbuttonoffers /> */}
       {/* <ContactFormBlogPost temat="Jak kupić nieruchomość w Hiszpanii cz.1" /> */}
       <Footer />
