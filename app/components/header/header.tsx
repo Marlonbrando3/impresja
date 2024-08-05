@@ -15,6 +15,14 @@ export default function Header() {
 
   const menu = ["Strona główna", "Oferty Nieruchomości", "O nas", "Blog", "Kontakt"];
 
+  const data = [
+    { link: "/", name: "Strona Główna" },
+    { link: "/", name: "Oferty Nieruchomości" },
+    { link: "/", name: "O Nas" },
+    { link: "/blog", name: "Blog" },
+    { link: "/#c", name: "Kontakt" },
+  ];
+
   const showMenu = () => {
     closedMenu.current.style.display = "none";
     openedMenu.current.style.display = "block";
@@ -34,8 +42,8 @@ export default function Header() {
           ref={mobileMenu}
           className="w-full h-[30vh] absolute right-[100%] top-[70px] z-50 bg-white duration-200 flex items-center flex-col"
         >
-          {menu.map((el) => (
-            <Menubutton key={el} element={el} />
+          {data.map((el) => (
+            <Menubutton key={el.name} element={el.name} link={el.link} />
           ))}
           <Addoffer />
         </div>
@@ -49,8 +57,8 @@ export default function Header() {
             ></Image>
           </div>
           <div className="lg:flex hidden w-[750px] border-green-800 justify-between">
-            {menu.map((el) => (
-              <Menubutton key={el} element={el} />
+            {data.map((el) => (
+              <Menubutton key={el.name} element={el.name} link={el.link} />
             ))}
             <Addoffer />
           </div>
