@@ -12,7 +12,12 @@ export default function Footer() {
       <div className="lg:w-[1100px] w-[90vw] flex lg:flex-row flex-col mx-auto items-center py-[20px] justify-center">
         <div className="flex justify-center items-center">
           <div>
-            <Image src="/logo_poziome_impresja.png" width={200} height={10} alt="logo" />
+            <Image
+              src="/impresja_logo.png"
+              width={200}
+              height={10}
+              alt="logo impresja nieruchomości namysłów"
+            />
           </div>
           <Menufooter />
           <Socials />

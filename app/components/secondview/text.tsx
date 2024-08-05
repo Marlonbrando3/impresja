@@ -26,9 +26,9 @@ export default function Text() {
   return (
     <div
       ref={text}
-      className="flex flex-col justify-center lg:w-[50%] w-[90vw] lg:invisible transition-duration-200 lg:-ml-[200px] duration-200 mx-auto lg:mx-0"
+      className="flex flex-col justify-center lg:w-[50%] w-[90vw] lg:invisible transition-duration-200 lg:-ml-[200px] duration-200 mx-auto lg:mx-0 mt-[40px] md:mt-0"
     >
-      <div className="text-[35px] leading-10 font-semibold">
+      <div className="md:text-[35px] text-[25px] md:leading-10 leading-8 font-semibold mx-auto">
         Znajdź lub sprzedaj swoją nieruchomość
       </div>
       <div className="w-[100px] h-[5px] bg-blue-400 my-[15px]"></div>

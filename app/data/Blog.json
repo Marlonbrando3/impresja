@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "status": "published",
+    "link": "/nieruchomości_namysłów.png",
+    "title": "Czy warto szukać mieszkania w namysłowie? Kilka słów o tym miejście - dla zielonych.",
+    "description": "Poszukując mieszkania do kupienia na opolszyczźnie coraz częściej szukamy miejsc dobrze zurbanizowanych ale również spokojnych. Czy Namysłów jest wary zamiszkania?",
+    "tag": "nieruchomości_w_namysłowie_pierszwsze_kroki"
+  },
+  {
+    "id": 2,
+    "status": "wating",
+    "link": "/nieruchomości_Syców.png",
+    "title": "Nowe inwestycje w Sycowe",
+    "description": "wkrótce...",
+    "tag": "nieruchomości w namysłowie_piersze_kroki"
+  }
+]

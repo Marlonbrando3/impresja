@@ -40,7 +40,7 @@ export default function Header() {
           <Addoffer />
         </div>
         <div className="lg:w-[1100px] w-[90vw] mx-auto flex justify-between items-center h-full">
-          <div className="lg:w-[160px] w-[180px] h-full border-red-900 py-[10px] my-[20px] relative">
+          <div className="lg:w-[160px] w-[160px] h-full border-red-900 py-[10px] my-[20px] relative">
             <Image
               src="/impresja_logo.png"
               alt="impresja nieruchomości"
@@ -54,11 +54,11 @@ export default function Header() {
             ))}
             <Addoffer />
           </div>
-          <div ref={closedMenu} onClick={showMenu} className="block lg:hidden w-[30px] h-[30px]">
-            <MdOutlineMenu onClick={showMenu} className="w-[30px] h-[30px]" />
+          <div ref={closedMenu} onClick={showMenu} className="block lg:hidden w-[40px] h-[40px]">
+            <MdOutlineMenu onClick={showMenu} className="w-[40px] h-[40px]" />
           </div>
-          <div ref={openedMenu} onClick={hideMenu} className="hidden lg:hidden w-[30px] h-[30px]">
-            <MdOutlineMenuOpen className="w-[30px] h-[30px]" />
+          <div ref={openedMenu} onClick={hideMenu} className="hidden lg:hidden w-[40px] h-[40px]">
+            <MdOutlineMenuOpen className="w-[40px] h-[40px]" />
           </div>
         </div>
       </div>
