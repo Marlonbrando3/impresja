@@ -24,7 +24,7 @@ export default function Home() {
 
         gtag('config', 'G-NNW1E1J5PY');`}
       </Script>
-      <Script id="hotjar">
+      <Script id="hotjar-snippet">
         {` (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
         h._hjSettings={hjid:5083945,hjsv:6};
