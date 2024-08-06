@@ -7,6 +7,7 @@ import Secondview from "./components/secondview/secondview";
 import Footer from "./components/footer/footer";
 import Offersonmainpage from "./components/offersonmainpage/offersonmainpage";
 import Contactform from "./components/contactfrom/contactform";
+import AddYorOffer from "./components/searchonmainpage/addYorOffer";
 
 export default function Home() {
   return (

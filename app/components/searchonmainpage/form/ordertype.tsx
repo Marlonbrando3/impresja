@@ -1,10 +1,23 @@
 import React from "react";
 
-export default function Ordertype() {
+type OrderType = {
+  query: any;
+  setQuery: any;
+};
+
+export default function Ordertype({ query, setQuery }: OrderType) {
+  const hanldeUpdateingCity = (e: any) => {
+    setQuery({ ...query, orderType: e.target.value });
+    console.log(query);
+  };
+
   return (
-    <select className="w-[48%] h-[50px] text-[20px] rounded-[5px] pl-[5px] border border-gray-900 outline-none cursor-pointer">
-      <option>Kupię</option>
-      <option>Wynajmę</option>
+    <select
+      onChange={hanldeUpdateingCity}
+      className="w-[48%] h-[50px] text-[20px] rounded-[5px] pl-[5px] border border-gray-300 outline-none cursor-pointer"
+    >
+      <option value="buy">Kupię</option>
+      <option value="rent">Wynajmę</option>
     </select>
   );
 }

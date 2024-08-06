@@ -7,11 +7,14 @@ import Addoffer from "./addoffer";
 import Image from "next/image";
 import { MdOutlineMenu } from "react-icons/md";
 import { MdOutlineMenuOpen } from "react-icons/md";
+import AddYorOffer from "../searchonmainpage/addYorOffer";
 
 export default function Header() {
   const closedMenu: any = useRef();
   const openedMenu: any = useRef();
   const mobileMenu: any = useRef();
+
+  const addYourOffer: any = useRef();
 
   const menu = ["Strona główna", "Oferty Nieruchomości", "O nas", "Blog", "Kontakt"];
 
@@ -37,6 +40,7 @@ export default function Header() {
 
   return (
     <div className="h-[70px] w-full">
+      <AddYorOffer addYourOffer={addYourOffer} />
       <div className="h-[70px] w-full shadow-md fixed bg-white z-30">
         <div
           ref={mobileMenu}
@@ -45,7 +49,7 @@ export default function Header() {
           {data.map((el) => (
             <Menubutton key={el.name} element={el.name} link={el.link} />
           ))}
-          <Addoffer />
+          <Addoffer addYourOffer={addYourOffer} />
         </div>
         <div className="lg:w-[1100px] w-[90vw] mx-auto flex justify-between items-center h-full">
           <div className="lg:w-[160px] w-[160px] h-full border-red-900 py-[10px] my-[20px] relative">
@@ -60,7 +64,7 @@ export default function Header() {
             {data.map((el) => (
               <Menubutton key={el.name} element={el.name} link={el.link} />
             ))}
-            <Addoffer />
+            <Addoffer addYourOffer={addYourOffer} />
           </div>
           <div ref={closedMenu} onClick={showMenu} className="block lg:hidden w-[40px] h-[40px]">
             <MdOutlineMenu onClick={showMenu} className="w-[40px] h-[40px]" />
