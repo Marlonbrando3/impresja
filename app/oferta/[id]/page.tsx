@@ -22,8 +22,6 @@ export default function Id({ params }: any) {
     return property.id.toString() === id;
   });
 
-  // console.log(property[0].description);
-
   return (
     <>
       <Head>
