@@ -8,16 +8,23 @@ type Property = {
 };
 
 export default function PropertySpecification({ property }: Property) {
-  const DataInSpecificationBar = ["Piętro", "Liczba pokoi", "Balkon", "Rok budowy"];
+  const DataInSpecificationBar = [
+    "Piętro",
+    "Liczba pokoi",
+    "Liczba łazienek",
+    "Powierzchnia użytk.",
+    "Rok budowy/oddania",
+  ];
 
   // console.log(property);
 
   const DataForSpecificationBarComponent = DataInSpecificationBar.map((i) => {
     let param =
       (i === "Piętro" && property[0].floorNo) ||
-      (i === "Liczba pokoi" && property[0].floorNo) ||
-      (i === "Balkon" && property[0].floorNo) ||
-      (i === "Rok budowy" && property[0].floorNo);
+      (i === "Liczba pokoi" && property[0].noOfRooms) ||
+      (i === "Liczba łazienek" && property[0].noOfBathrooms) ||
+      (i === "Powierzchnia użytk." && property[0].totalArea) ||
+      (i === "Rok budowy/oddania" && property[0].vacantFromDate.slice(0, 7));
     return <SpecificationBarComponent key={i} data={i} param={param} />;
   });
 
