@@ -10,7 +10,7 @@ export default function Menufooter() {
         {menu.map((el) => (
           <Menubuttonfooter key={el} element={el} />
         ))}
-        <Addoffer />
+        {/* <Addoffer /> */}
       </div>
     </div>
   );
