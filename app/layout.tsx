@@ -1,8 +1,8 @@
 import type { Metadata, Viewport } from "next";
-import { Nunito } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 
-const inter = Nunito({ subsets: ["latin"] });
+const inter = Roboto({ subsets: ["latin"], weight:"300" });
 
 export const metadata: Metadata = {
   title: "Impresja nieruchomości Namysłów, Kluczbork, Oleśnica, Oława, Brzeg",

@@ -46,7 +46,7 @@ export default function BlogPost() {
         </div>
       </div>
       <HeaderBlogPost temat={temat} />
-      <div className="lg:w-[1100px] text-[18px] w-[90vw] mx-auto mb-[40px]">
+      <div className="lg:w-[1020px] text-[18px] w-[90vw] mx-auto mb-[40px]">
         Namysłów, malowniczo położony na Dolnym Śląsku, jest miastem o bogatej historii, pięknych
         krajobrazach i dynamicznie rozwijającej się infrastrukturze. W ostatnich latach zyskał na
         popularności wśród inwestorów i osób poszukujących nowego miejsca do życia. <br />W

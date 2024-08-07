@@ -13,9 +13,8 @@ export default function Offerelement({ property }: Property) {
       className="w-[350px] h-[400px] border-gray-900 rounded-[7px] shadow-md overflow-hidden cursor-pointer hover:shadow-xl duration-200"
     >
       <div className="relative h-[250px] w-full">
-        <div className="bottom-0 left-0 absolute text-white font-bold z-20 text-[25px] bg-orange-500/[0.9] px-[10px]">
-          {property.price.amount.toLocaleString().replaceAll(",", " ")}&nbsp;
-          {property.price.currency}
+        <div className="bottom-0 left-0 absolute text-white font-bold z-20 text-[25px] bg-blue-500/[0.9] rounded-r-xl px-[10px]">
+          {property.price.amount.toLocaleString().replaceAll(",", " ")}&nbsp; zł
         </div>
         <Image
           src={`https://img.asariweb.pl/normal/${property.images[0].id}`}

@@ -28,7 +28,16 @@ export default function Admin() {
       await new Promise(async (resolve, reject) => {
         let resultTemp = await FetchPropertiesFromAsari(property);
         let result = await resultTemp.list.data;
-        ResultsTemp.push(result);
+
+        console.log(result);
+
+        if (result.country.name === "Polska") {
+          ResultsTemp.push(result);
+          console.log("Dodano nieruchomość");
+        } else {
+          console.log("Odrzucono nieruchomość");
+        }
+        // ResultsTemp.push(result);
         await delay(3000);
         resolve(console.log("Zapisano!"));
         console.log("-------");
@@ -79,20 +88,36 @@ export default function Admin() {
   // }, [results, propertiesId]);
 
   return (
-    <div className="p-[50px]">
-      <div
-        onClick={fetchIDs}
-        className="border text-center w-[300px] cursor-pointer bg-blue-500 text-[30px] text-white"
-      >
-        Ściągnij dane z Asari
+    <>
+      <meta property="Nieruchomości w Hiszpanii, Chorwacji, Portugalii" content="image" />
+      <title>Biuro nieruchomości Namysłów. Biuro nieruchomości Syców.</title>
+      <meta
+        name="Keywords"
+        content="nieruchomości w namysłowie, domy w namysłowie, mieszkania Syców, mieszkania namysłów"
+      />
+      <meta
+        name="Description"
+        content="Mieszkania i domy na terenie Namysłówa, Sycowa, Kluczborka, Oławy, Wołczyna oraz pozostałej części woj. opolskiego oraz wielkopolskiego."
+      />
+      <meta
+        name="viewport"
+        content="initial-scale=1.0, width=device-width, minimum-scale=1, maximum-scale=1"
+      />
+      <div className="p-[50px]">
+        <div
+          onClick={fetchIDs}
+          className="border text-center w-[300px] cursor-pointer bg-blue-500 text-[30px] text-white"
+        >
+          Ściągnij dane z Asari
+        </div>
+        <div
+          onClick={stopFetching}
+          className="border text-center w-[300px] cursor-pointer bg-blue-500 text-[30px] text-white"
+        >
+          Zatrzymaj import
+        </div>
+        <div></div>
       </div>
-      <div
-        onClick={stopFetching}
-        className="border text-center w-[300px] cursor-pointer bg-blue-500 text-[30px] text-white"
-      >
-        Zatrzymaj import
-      </div>
-      <div></div>
-    </div>
+    </>
   );
 }
