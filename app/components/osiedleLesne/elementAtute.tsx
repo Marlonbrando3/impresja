@@ -15,7 +15,10 @@ import { BsWater } from "react-icons/bs";
 
 export default function ElementAtute() {
   return atuts.map((i) => (
-    <div className="lg:w-[30%] w-[50%] md:h-[440px] flex justify-between flex-col mt-[30px] md:mt-0">
+    <div
+      key={i.id}
+      className="lg:w-[30%] w-[50%] md:h-[440px] flex justify-between flex-col mt-[30px] md:mt-0"
+    >
       <div className="w-[50px] h-[50px] text-[#e4c27e]">
         {(i.id === 1 && <TbMapBolt className="w-full h-full" />) ||
           (i.id === 2 && <PiFlowerTulipBold className="w-full h-full" />) ||

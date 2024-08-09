@@ -6,7 +6,7 @@ export default function PropertiesLists() {
   return (
     <div>
       {Properties.map((i) => (
-        <AboutProperties data={i} />
+        <AboutProperties key={i.id} data={i} />
       ))}
     </div>
   );

@@ -64,7 +64,7 @@ export default function Slider() {
         </div>
         <div className="flex mt-[20px]">
           {ImagesData.map((i) => (
-            <Dots actualImage={actualImage} mappedId={i.id} />
+            <Dots key={i.id} actualImage={actualImage} mappedId={i.id} />
           ))}
         </div>
       </div>
