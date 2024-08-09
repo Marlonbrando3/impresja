@@ -13,7 +13,7 @@ export default function Addoffer({ addYourOffer }: Offer) {
   return (
     <div
       onClick={handleShowingWindow}
-      className="border border-white p-[7px] w-[170px] rounded-[5px] text-center shadow-sm cursor-pointer hover:bg-orange-500 duration-200 font-semibold"
+      className="border text-white border-white bg-blue-500 p-[7px] w-[170px] rounded-[5px] text-center shadow-sm cursor-pointer hover:bg-orange-500 duration-200 font-semibold"
     >
       Chcę dodać ofertę
     </div>

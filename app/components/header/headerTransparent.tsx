@@ -2,7 +2,7 @@
 
 import React, { use, useState, useRef, useCallback, useEffect } from "react";
 import Script from "next/script";
-import Menubutton from "./menubuttons";
+import Menubuttontransparent from "./menubuttonstransaprent";
 import Addoffer from "./addoffer";
 import Image from "next/image";
 import { MdOutlineMenu } from "react-icons/md";
@@ -24,7 +24,7 @@ export default function HeaderTransparent() {
     { link: "/", name: "Strona Główna" },
     { link: "/", name: "Oferty Nieruchomości" },
     { link: "/", name: "O Nas" },
-    { link: "/nieruchomsoci_sycow_dlaczego", name: "Dlaczego Syców?" },
+    { link: "/dlaczego_nieruchomosci_sycow", name: "Dlaczego Syców?" },
     { link: "/#c", name: "Kontakt" },
   ];
 
@@ -76,7 +76,7 @@ export default function HeaderTransparent() {
           className="w-full h-[30vh] bg-white absolute right-[100%] top-[70px] z-50 duration-200 flex items-center flex-col"
         >
           {data.map((el) => (
-            <Menubutton key={el.name} element={el.name} link={el.link} />
+            <Menubuttontransparent key={el.name} element={el.name} link={el.link} />
           ))}
           {/* <Addoffer addYourOffer={addYourOffer} /> */}
         </div>
@@ -92,7 +92,7 @@ export default function HeaderTransparent() {
           </div>
           <div className="lg:flex hidden w-[750px] border-green-800 justify-between">
             {data.map((el) => (
-              <Menubutton key={el.name} element={el.name} link={el.link} />
+              <Menubuttontransparent key={el.name} element={el.name} link={el.link} />
             ))}
             {/* <Addoffer addYourOffer={addYourOffer} /> */}
           </div>

@@ -6,12 +6,16 @@ interface Menu {
   link: any;
 }
 
-export default function Menubutton({ element, link }: Menu) {
+export default function Menubuttontransparent({ element, link }: Menu) {
   return (
     <Link
-      href={link}
+      href={`${
+        element === "Dlaczego Syców?"
+          ? "/nieruchomosci_sycow_osiedle_lesne/dlaczego_nieruchomosci_sycow"
+          : link
+      }`}
       className={`${
-        element === "Chcę dodać ofertę" && "bg-blue-500 text-white"
+        element === "Kontakt" && "bg-[#dcb15c]"
       } rounded-[7px] p-[7px] cursor-pointer hover:bg-[#DCB15C] hover:text-white duration-200`}
     >
       {element}

@@ -54,7 +54,7 @@ export default function HeaderBlog({ temat }) {
           </div>
           <div id="claim" className="lg:w-1/2 font-semibold py-[10px] lg:py-0">
             <h2 className="w-full text-center">
-              Dlaczego warto zamieszkać w Namysłowie? Namysłów to Urokliwe Miasto z Potencjałem
+              Dlaczego warto zamieszkać w Sycowie? Syców to Urokliwe Miasto z Potencjałem
               inwestycjnycym ale również do spokojego życia. Poznaj je nieco bliżej.
             </h2>
           </div>

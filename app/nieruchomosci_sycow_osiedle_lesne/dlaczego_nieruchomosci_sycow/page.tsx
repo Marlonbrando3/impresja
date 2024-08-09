@@ -47,7 +47,7 @@ export default function BlogPost() {
         </div>
       </div>
       <HeaderBlogPost temat={temat} />
-      <div className="lg:w-[1020px] text-[18px] w-[90vw] mx-auto mb-[40px]">
+      <div className="lg:w-[1020px] text-[18px] w-[90vw] mx-auto md:mb-[40px] mb-[140px]">
         <div className="main-index">
           <h1>Nieruchomości Syców</h1>
           <strong className="font-bold">Znajdź idealne Miejsce na Twój Dom</strong>
@@ -235,14 +235,20 @@ export default function BlogPost() {
           atrakcji, miasto staje się coraz bardziej popularnym wyborem dla nowych mieszkańców. To
           idealne miejsce na znalezienie swojego wymarzonego domu lub mieszkania, które będzie
           zarówno wygodne, jak i korzystne finansowo.
-        </div>
-        <div className="w-[400px] h-[300px] relative border">
-          <Image
-            src="/nieruchomosci-sycow.jpg"
-            fill
-            objectFit="cover"
-            alt="nieruchomsci_sycow"
-          ></Image>
+          <div className="md:w-[700px] md:h-[200px] h-[300px] relative borde mx-auto mt-[40px]">
+            <Link
+              href="/nieruchomosci_sycow_osiedle_lesne"
+              className="absolute md:w-[700px] md:h-[200px] h-[300px] top-0 z-10 text-[40px] flex items-center justify-center text-center text-white pt-[50px] font-bold bg-orange-500/[0.5]"
+            >
+              <p>Kliknij i zobacz nową inwestycję w Sycowie blisko Parku</p>
+            </Link>
+            <Image
+              src="/nieruchomosci_syców_2.png"
+              fill
+              objectFit="cover"
+              alt="nieruchomsci_sycow"
+            ></Image>
+          </div>
         </div>
       </div>
       {/* <Blogbuttonoffers /> */}
