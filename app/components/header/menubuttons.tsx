@@ -9,8 +9,10 @@ interface Menu {
 export default function Menubutton({ element, link }: Menu) {
   return (
     <Link
-      href={link}
-      className="rounded-[7px] p-[7px] cursor-pointer hover:bg-orange-500 hover:text-white duration-200"
+      href="/nieruchomosci_sycow_osiedle_lesne/#c"
+      className={`${
+        element === "Kontakt" && "bg-[#DCB15C] text-white"
+      } rounded-[7px] p-[7px] cursor-pointer hover:bg-[#DCB15C] hover:text-white duration-200`}
     >
       {element}
     </Link>

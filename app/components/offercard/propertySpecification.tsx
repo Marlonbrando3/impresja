@@ -24,7 +24,9 @@ export default function PropertySpecification({ property }: Property) {
       (i === "Liczba pokoi" && property[0].noOfRooms) ||
       (i === "Liczba łazienek" && property[0].noOfBathrooms) ||
       (i === "Powierzchnia użytk." && property[0].totalArea) ||
-      (i === "Rok budowy/oddania" && property[0].vacantFromDate.slice(0, 7));
+      (property[0].vacantFromDate !== null &&
+        i === "Rok budowy/oddania" &&
+        property[0].vacantFromDate.slice(0, 7));
     return <SpecificationBarComponent key={i} data={i} param={param} />;
   });
 

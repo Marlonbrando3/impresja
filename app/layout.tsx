@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
 
-const inter = Roboto({ subsets: ["latin"], weight:"300" });
+const inter = Roboto({ subsets: ["latin"], weight: "300" });
 
 export const metadata: Metadata = {
   title: "Impresja nieruchomości Namysłów, Kluczbork, Oleśnica, Oława, Brzeg",
@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pl">
       <body className={inter.className}>{children}</body>
     </html>
   );

@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "type": "Mieszkanie Piętro",
+    "bedrooms": 2,
+    "meters": 56,
+    "parking": "tak",
+    "garaż": "nie",
+    "piętro": 1,
+    "img": "mieszkanie_piętro",
+    "cena": 380000
+  },
+  {
+    "id": 1,
+    "type": "Mieszkanie Parter",
+    "bedrooms": 2,
+    "meters": 56,
+    "parking": "tak",
+    "garaż": "tak",
+    "piętro": "parter",
+    "img": "mieszkanie_parter",
+    "cena": 380000
+  },
+  {
+    "id": 1,
+    "type": "Dom",
+    "bedrooms": 3,
+    "meters": 110,
+    "parking": "tak",
+    "garaż": "tak",
+    "piętro": 2,
+    "imgParter": "dom_parter",
+    "imgPiętro": "dom_piętro",
+    "cena": 620000
+  }
+]
