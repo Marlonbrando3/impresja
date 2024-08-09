@@ -7,7 +7,7 @@ export default function Qanda() {
     <div className="w-full h-[300px]">
       <div className="border w-[1020px] h-full mx-auto">
         {QandaData.map((i) => (
-          <QandaComponent data={i} />
+          <QandaComponent key={i.id} data={i} />
         ))}
       </div>
     </div>
