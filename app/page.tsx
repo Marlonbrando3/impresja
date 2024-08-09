@@ -8,6 +8,7 @@ import Footer from "./components/footer/footer";
 import Offersonmainpage from "./components/offersonmainpage/offersonmainpage";
 import Contactform from "./components/contactfrom/contactform";
 import AddYorOffer from "./components/searchonmainpage/addYorOffer";
+import NewProjektSycow from "./components/newProjektSycow";
 
 export default function Home() {
   return (
@@ -52,6 +53,7 @@ export default function Home() {
         />
       </Head>
       <main className="text-black relative">
+        <NewProjektSycow />
         <Header />
         <View />
         <Secondview />
