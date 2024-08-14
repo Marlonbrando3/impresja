@@ -38,7 +38,7 @@ export default function Form() {
 
   return (
     <form onSubmit={sendForm} className="p-[30px] bg-blue-400 rounded-[7px] mx-auto lg:w-[900px]">
-      <div className="text-white text-[25px] mb-[30px] w-[300px] font-bold">
+      <div className="text-white lg:text-[32px] text-[28px] mb-[30px] w-[300px] font-bold">
         Jak możemy Ci pomóc?
       </div>
       <div className="flex justify-center flex-col lg:flex-row">

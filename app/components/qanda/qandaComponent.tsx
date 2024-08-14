@@ -28,7 +28,7 @@ export default function QandaComponent({ data, items }: Question) {
         <div
           onClick={() => handlingQANDA(data.id)}
           id={data.id}
-          className="w-full h-[40px] flex items-center font-bold text-[20px] pl-[10px] leading-[24px] cursor-pointer py-[30px] md:py-0"
+          className="w-full h-[40px] flex items-center font-bold lg:text-[20px] text-[18px] pl-[10px] leading-[24px] cursor-pointer py-[30px] md:py-0"
           dangerouslySetInnerHTML={{ __html: data.topic }}
         ></div>
         <IoMdArrowDropdown

@@ -13,11 +13,10 @@ export default function Qanda() {
     <div id="qanda" className="w-full h-auto">
       <div className=" py-[80px] lg:w-[1000px] w-[90vw] h-full mx-auto">
         <p
-          className={`${TenorsSans.className} text-[32px] lg:w-[900px] w-full leading-[35px] text-[#723C19] mb-[30px]`}
+          className={`${TenorsSans.className} lg:text-[32px] text-[28px] lg:w-[900px] w-full leading-[35px] text-[#723C19] mb-[30px]`}
         >
-          <h1 className="inline">Nieruchomości Syców</h1>, dlaczego warto?
-          <br />
-          Pytania i odpowiedzi
+          <h1 className="inline lg:text-[32px] text-[28px]">Nieruchomości Syców</h1>
+          <br /> Pytania i odpowiedzi
         </p>
         {QandaData.map((i) => (
           <QandaComponent key={i.id} data={i} items={items} />
