@@ -6,7 +6,7 @@ export default function ResultsOffers() {
   return (
     <div className="flex-grow">
       {Properties.map((i) => (
-        <PropertyCards property={i} />
+        <PropertyCards key={i.id} property={i} />
       ))}
     </div>
   );
