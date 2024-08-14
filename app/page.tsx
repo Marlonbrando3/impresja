@@ -39,6 +39,7 @@ export default function Home() {
       <Head>
         <meta property="Nieruchomości w Hiszpanii, Chorwacji, Portugalii" content="image" />
         <title>Biuro nieruchomości Namysłów. Biuro nieruchomości Syców.</title>
+        <link rel="shortcut icon" href="/icon_logo.png" />
         <meta
           name="Keywords"
           content="nieruchomości w namysłowie, domy w namysłowie, mieszkania Syców, mieszkania namysłów"
