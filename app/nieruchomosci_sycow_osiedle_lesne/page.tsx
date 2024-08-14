@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import Header from "../components/header/header";
 import MainView from "../components/osiedleLesne/mainView";
 import SecondView from "../components/osiedleLesne/secondView";
@@ -13,16 +14,39 @@ import PropertiesLists from "../components/aboutProperties.tsx/propertiesLists";
 
 export default function Page() {
   return (
-    <div>
-      <HeaderTransparent />
-      <MainView />
-      <SecondView />
-      <Thirdview />
-      <Slider />
-      <PropertiesLists />
-      {/* <Qanda /> */}
-      <ContactformOsiedleLesne />
-      <Footer />
-    </div>
+    <>
+      <Head>
+        <title>Nieruchomości Syców - nowe domy oraz mieszkania</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin=""></link>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap"
+          rel="stylesheet"
+        ></link>
+        <meta
+          name="Description"
+          content="Nowa inwestycja w Sycowie, domy i mieszkania w najlepszej lokalizacji w Sycowie blisko marketów i parku w Sycowie."
+        />
+        <meta
+          name="Keywords"
+          content="nieruchomości Syców, nieruchomości w Sycowie, dom na sprzedaż Syców, mieszkania na sprzedaz Syców, mieszkania na sprzedaż Syców bez pośredników."
+        />
+        <meta
+          name="viewport"
+          content="initial-scale=1.0, width=device-width, minimum-scale=1, maximum-scale=1"
+        />
+      </Head>
+      <div>
+        <HeaderTransparent />
+        <MainView />
+        <SecondView />
+        <Thirdview />
+        <Slider />
+        <PropertiesLists />
+        <Qanda />
+        <ContactformOsiedleLesne />
+        <Footer />
+      </div>
+    </>
   );
 }

@@ -8,6 +8,7 @@
     "garaż": "nie",
     "piętro": 1,
     "img": "mieszkanie_piętro",
+    "description": "<strong>Ta nieruchomość w Sycowie</strong> położona jest na I piętrze 2-poziomowego domu. Mieszkanie posiada dwa parkingi oraz taras, do zagospodarowania jest również podasze jako magazyn. Idealne dla osób, które cenią sobie komfort życia w mieszkaniu ale również ciszę, zamknięte osiedle o niskiej zabudowie,",
     "cena": 380000
   },
   {
@@ -19,6 +20,7 @@
     "garaż": "tak",
     "piętro": "parter",
     "img": "mieszkanie_parter",
+    "description": "<strong>Ta nieruchomość w Sycowie</strong> położona jest na parterze 2-poziomowego domu. Mieszkanie posiada dwa parkingi, duży ogród oraz taras. Idealne dla osób, które chcą połączyć komfort życia w mieszkaniu z atutami jakie niesie własny dom. Ale również ciszę, zamknięte osiedle o niskiej zabudowie.",
     "cena": 380000
   },
   {
@@ -29,6 +31,7 @@
     "parking": "tak",
     "garaż": "tak",
     "piętro": 2,
+    "description": "<strong>Dom w sycowie na sprzedaż</strong> jest doskonałą propozycją dla osób, które o swoim własnym domu zawsze marzyły, niemniej chciały być blisko istotnych z punktu widzenia komfortu życia obiektów tj. markety, sklepy. Domy są 2 piętrowe, <strong>domy w Sycowie </strong>posiadają garaż i duży ogród.",
     "imgParter": "dom_parter",
     "imgPiętro": "dom_piętro",
     "cena": 620000

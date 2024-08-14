@@ -16,7 +16,7 @@ export default function Menubuttontransparent({ element, link }: Menu) {
       }`}
       className={`${
         element === "Kontakt" && "bg-[#dcb15c]"
-      } rounded-[7px] p-[7px] cursor-pointer hover:bg-[#DCB15C] hover:text-white duration-200 mx-[20px]`}
+      } rounded-[7px] p-[7px] cursor-pointer hover:bg-[#DCB15C] hover:text-white duration-200 mx-[20px] `}
     >
       {element}
     </Link>

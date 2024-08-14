@@ -1,17 +1,52 @@
 [
   {
-    "id": "1",
-    "topic": "Wykonanie nieruchmości",
-    "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum "
+    "id": 1,
+    "topic": "<h2>Nieruchomości syców - czy ta miejscowość jest atrakcyjna?</h2>",
+    "description": "Syców inwestycyjnie jest bardzo atrkacyjny dla osób, które nie chcą mieszkać w dużych mieście ale być z nimi dobrze skomunikowanyni. Dla kogoś szukającego spokojego życia w pobliży wszystkiego co niezbędne <strong>nieruchomości Syców</strong> wydają się doskonałym rozwiązaniem. Sama inwestycja jest o niskiej zabudowie co pozwala poczuć kameralny klimat blisko miasta. Rozważ jeśli szukasz swojej <strong>nieruchomości w Sycowie</strong>. "
   },
   {
-    "id": "2",
-    "topic": "Czy mogę wprowadzić zmiany",
-    "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum "
+    "id": 2,
+    "topic": "<h2>Czy mogę wprowadzić zmiany w swojej nieruchomości w Sycowie</h2>",
+    "description": "Zmiany można wprowadzać głównie na etapie budowy, niemniej w chwili zaawansowanych prac pojawi się pomysł na modernizację - zmiany również (choć nie każda)  będzą możliwe, niemniej może to być okraszone dodatkowym kosztem. Zmiany najlepiej wprowadzać jak najcześniej."
   },
   {
-    "id": "3",
-    "topic": "Co jeśli chcę wziąść kredyt",
-    "description": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum "
+    "id": 3,
+    "topic": "<h2>Jakie istotne obiekty są wokół tej nieruchomości w Sycowie?</h2>",
+    "description": "Ta <strong>nieruchomość w Sycowie</strong>, a dokłanie cały projekt powstaje w odległości krótkiego spacer (ok 400 m, a po wybduowaniu dróg jeszcze bliżej) do parku w Sycowie, który jest odniowony przez Urząd Miasta. W odległości ok 350 m, docieramy do marketów netto i Lidl, zaraz obok ronda, gdzie jest Żabka oraz piekarnia. Centrum handlowe jest ok 950 m od inwestycji."
+  },
+  {
+    "id": 4,
+    "topic": "<h2>Na spokojne jest otoczenie tej nieruchomści w Sycowie?</h2>",
+    "description": "Do krajowej drogi S8 mamy ok 1 km, zatem hałas jest praktycznie niesłyszalny. od strony ulicy należacej do miasta inwestycja powstaje w tzw. 'drugiej linni', zatem szumy z tej ulicy również są zagłuszane przez domy bliżej. Ta nieruchomość w Sycowie jest w miejscu w które trudno dojrzeć z każdej z tych ulic."
+  },
+  {
+    "id": 5,
+    "topic": "<h2>Nieruchomości Syców, a ceny. Czy nie lepiej wybrać Oleśnicę?</h2>",
+    "description": "Olesnica jest miastem dobrze zabudowanym, które ofertuje zapewne podobne inwestycje niemniej już nie w tak dobrej lokzalicji i nie za taką cenę. Ceny nieruchomości w Oleśnicy są ok 30 % wyższe niż koszt zakupu <strong>nieruchomości w Sycowie</strong>. Syców i ta inwsetycja ofertuje komfort mieszkania na kameralnym osiedlu za dobrą ceną z możliwścią szybkiej komunikacji z Wrocławiem, Kepnem czy Oleśnicą."
+  },
+  {
+    "id": 6,
+    "topic": "<h2>Dom na sprzedaż Syców - szczegóły</h2>",
+    "description": "<strong>Dom na sprzedaż w Sycowie</strong> jest realizowany w zabudowy szeregowej. Doma ma dwa piętra, parter oraz I piętro, 3 sipialnie, 2 łazienki, salon taras i duży ogród. Ponaddto przewidziane zostały miejsca parkingowe. Zatem jeśli wpisałeś w wyszkiarkę <strong>dom na sprzedaż Syców</strong> to owa propozycja powinna spełnić Twoje oczekiwania. "
+  },
+  {
+    "id": 7,
+    "topic": "<h2>Jakie są główne atuty też nieruchomości w Sycowie?</h2>",
+    "description": "Są to m.in. bliskość do terenów zielonych, spokojnie żyjące miasto z dobrym dostępem do większych miast np. do pracy. Blisko sklepów, centrum handlowego, stacji paliw oraz S8. Niska dwu-piętrowa zabudowa, miejsca parkingowe, ogrody, obszary zielone w ramach inwestycji kształtują tę nieruchomość w Sycowie jako kameralne i bardzo spokojne miejsce do życia. I stosunkowo dobra cena zakupu."
+  },
+  {
+    "id": 8,
+    "topic": "<h2>Poszukuję jedynie nieruchomości w Sycowie bez pośredniów</h2>",
+    "description": "Proces sprzedaży będzie realizowany przez dewelopera, nie będą Pańśtwo ponosić kosztów współpracy z pośrednikiem."
+  },
+  {
+    "id": 9,
+    "topic": "<h2>Jak wygląda proces zakupu tej nieruchomości w Sycowie</h2>",
+    "description": "W przypadku zakupu <strong>domu w Sycowie</strong> lub <strong>mieszkania w Sycowie</strong> w tej inwestycji możemy dokonać transakcji gotówkowej, przelewem lub wspomóc się kredytem. W dwóch pierwszych przypadkach finasne kirowane są na rachunek powierniczy lub płatne transza zgodnie z etapami budowy i nie mogą być tknięte przez obie strony. W przypadku kredytu wymaga jest wpłata 1% wartości nieruchomości (będzie ona przeznaczona na poczet spłaty zapłąty całej kwoty) jako rezerwacja, pozostała część kwoty jest płatna po uzyskaniu kredytu. "
+  },
+  {
+    "id": 9,
+    "topic": "<h2>Kiedy ten projekt nieruchomości w Sycowie zostanie oddany do użytku?</h2>",
+    "description": "Planowany termin oddania obiektów do użytku to okolice końca roku 2024. Zarówno w przypadku <strong>omów na sprzedaż w Sycowie</strong> jak i mieszkań."
   }
 ]

@@ -18,11 +18,7 @@ export default function AboutProperties({ data }: Properties) {
       <div className="lg:w-[1020px] w-[90vw] h-auto mx-auto md:h-[80%] flex flex-col md:flex-row">
         <div className=" md:w-[50%] w-full md:pr-[50px] py-[50px]">
           <div className={`${DMSerif.className} text-[42px] text-[#723C19]`}>{data.type}</div>
-          <div className="mt-[20px]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, ullam? Tempora
-            assumenda mollitia velit hic totam, officiis repudiandae quo sint est eligendi aliquid
-            natus, praesentium quidem optio voluptas, labore sit?
-          </div>
+          <div dangerouslySetInnerHTML={{ __html: data.description }} className="mt-[20px]"></div>
           <div className="border-red-900 flex flex-wrap h-[270px] justify-between items-center mt-[30px]">
             <div className="flex w-full justify-center h-[70px]">
               <div className=" flex flex-col w-[50%]">

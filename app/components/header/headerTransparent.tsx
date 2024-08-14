@@ -24,6 +24,7 @@ export default function HeaderTransparent() {
     { link: "/", name: "Strona Główna" },
     { link: "/nieruchomosci_sycow_osiedle_lesne/#gallery", name: "Wizualizacje" },
     { link: "/nieruchomosci_sycow_osiedle_lesne/#plans", name: "Rzuty" },
+    { link: "/nieruchomosci_sycow_osiedle_lesne/#qanda", name: "Q & A" },
     { link: "/dlaczego_nieruchomosci_sycow", name: "Dlaczego Syców?" },
     { link: "/nieruchomosci_sycow_osiedle_lesne/#c", name: "Kontakt" },
   ];
@@ -68,7 +69,7 @@ export default function HeaderTransparent() {
   });
 
   return (
-    <div className="h-[70px] w-full text-white">
+    <div className="h-[70px] w-full lg:text-white md:text-black">
       {/* <AddYorOffer addYourOffer={addYourOffer} /> */}
       <div ref={headerDesktop} className="h-[70px] w-full fixed bg-transparent z-30">
         <div
@@ -90,7 +91,7 @@ export default function HeaderTransparent() {
               objectFit="contain"
             ></Image>
           </div>
-          <div className="lg:flex hidden w-[750px] border-green-800 justify-end ">
+          <div className="lg:flex hidden w-[820px] border-green-800 justify-end">
             {data.map((el) => (
               <Menubuttontransparent key={el.name} element={el.name} link={el.link} />
             ))}

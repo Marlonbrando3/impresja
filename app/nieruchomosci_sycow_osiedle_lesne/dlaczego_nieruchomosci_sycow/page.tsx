@@ -50,6 +50,20 @@ export default function BlogPost() {
       <div className="lg:w-[1020px] text-[18px] w-[90vw] mx-auto md:mb-[40px] mb-[140px]">
         <div className="main-index">
           <h1>Nieruchomości Syców</h1>
+          <div className="md:w-[700px] md:h-[200px] h-[300px] relative borde mx-auto mt-[40px] mb-[50px]">
+            <Link
+              href="/nieruchomosci_sycow_osiedle_lesne"
+              className="absolute md:w-[700px] md:h-[200px] h-[300px] top-0 z-10 text-[40px] flex items-center justify-center text-center text-white font-bold bg-orange-500/[0.5]"
+            >
+              <p>Kliknij i zobacz nową inwestycję w Sycowie blisko Parku</p>
+            </Link>
+            <Image
+              src="/nieruchomosci_syców_2.png"
+              fill
+              objectFit="cover"
+              alt="nieruchomsci_sycow"
+            ></Image>
+          </div>
           <strong className="font-bold">Znajdź idealne Miejsce na Twój Dom</strong>
           <br />
           <br />
@@ -238,7 +252,7 @@ export default function BlogPost() {
           <div className="md:w-[700px] md:h-[200px] h-[300px] relative borde mx-auto mt-[40px]">
             <Link
               href="/nieruchomosci_sycow_osiedle_lesne"
-              className="absolute md:w-[700px] md:h-[200px] h-[300px] top-0 z-10 text-[40px] flex items-center justify-center text-center text-white pt-[50px] font-bold bg-orange-500/[0.5]"
+              className="absolute md:w-[700px] md:h-[200px] h-[300px] top-0 z-10 text-[40px] flex items-center justify-center text-center text-white font-bold bg-orange-500/[0.5]"
             >
               <p>Kliknij i zobacz nową inwestycję w Sycowie blisko Parku</p>
             </Link>
