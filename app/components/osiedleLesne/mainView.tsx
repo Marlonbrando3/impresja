@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React from "react";
+import Link from "next/link";
 import { DMSerif } from "../../fonts/fonts";
 import { TenorsSans } from "../../fonts/fonts";
 
@@ -29,11 +30,12 @@ export default function MainView() {
               Mieszkania 56 m<sup>2</sup> Domy 110 m<sup>2</sup>
             </div>
           </div>
-          <div
+          <Link
+            href="/nieruchomosci_sycow_osiedle_lesne/#more-info"
             className={`${TenorsSans.className} border font-bold border-white bg-[#dcb15c] w-[240px] rounded-xl text-center py-[10px] text-[18px] text-white cursor-pointer uppercase hover:bg-white duration-200 hover:text-[#dcb15c] mx-auto lg:mx-0`}
           >
-            Wiecej informacji
-          </div>
+            Więcej informacji
+          </Link>
         </div>
       </div>
     </>

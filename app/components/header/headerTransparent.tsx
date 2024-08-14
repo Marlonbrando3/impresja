@@ -22,10 +22,10 @@ export default function HeaderTransparent() {
 
   const data = [
     { link: "/", name: "Strona Główna" },
-    { link: "/", name: "Oferty Nieruchomości" },
-    { link: "/", name: "O Nas" },
+    { link: "/", name: "Wizualizacje" },
+    { link: "/", name: "Rzuty" },
     { link: "/dlaczego_nieruchomosci_sycow", name: "Dlaczego Syców?" },
-    { link: "/#c", name: "Kontakt" },
+    { link: "/nieruchomosci_sycow_osiedle_lesne/#c", name: "Kontakt" },
   ];
 
   const showMenu = () => {
@@ -90,7 +90,7 @@ export default function HeaderTransparent() {
               objectFit="contain"
             ></Image>
           </div>
-          <div className="lg:flex hidden w-[750px] border-green-800 justify-between">
+          <div className="lg:flex hidden w-[750px] border-green-800 justify-end ">
             {data.map((el) => (
               <Menubuttontransparent key={el.name} element={el.name} link={el.link} />
             ))}

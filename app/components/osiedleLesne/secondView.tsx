@@ -5,6 +5,7 @@ import { TenorsSans } from "../../fonts/fonts";
 export default function SecondView() {
   return (
     <div
+      id="more-info"
       className={`${TenorsSans.className} w-full md:h-[900px] h-auto border-red-900 py-[50px] md:py-auto px-[10px]`}
     >
       <div className="md:w-[1020px] w-[90%] h-full  border-gray-600 mx-auto flex justify-between items-center flex-wrap">

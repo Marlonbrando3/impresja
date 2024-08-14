@@ -20,7 +20,7 @@ export default function Header() {
 
   const data = [
     { link: "/", name: "Strona Główna" },
-    { link: "/", name: "Oferty Nieruchomości" },
+    { link: "/nieruchomosci_sycow_osiedle_lesne", name: "Osiedle Leśne Syców" },
     { link: "/", name: "O Nas" },
     { link: "/blog", name: "Blog" },
     { link: "/#c", name: "Kontakt" },
