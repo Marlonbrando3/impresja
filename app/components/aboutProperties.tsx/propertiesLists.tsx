@@ -4,7 +4,7 @@ import Properties from "../../data/properties.json";
 
 export default function PropertiesLists() {
   return (
-    <div>
+    <div id="plans">
       {Properties.map((i) => (
         <AboutProperties key={i.id} data={i} />
       ))}

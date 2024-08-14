@@ -40,7 +40,7 @@ export default function Slider() {
   };
 
   return (
-    <div className="w-full h-[500px] mb-[120px]">
+    <div id="gallery" className="w-full h-[500px] mb-[120px]">
       <div className="lg:w-[1020px] w-[90vw] h-full  mx-auto flex justify-center items-center flex-col">
         <p
           className={`${TenorsSans.className} text-[32px] lg:w-[900px] w-full leading-[35px] text-[#723C19] mb-[30px]`}

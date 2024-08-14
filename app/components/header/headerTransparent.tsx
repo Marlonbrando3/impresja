@@ -22,8 +22,8 @@ export default function HeaderTransparent() {
 
   const data = [
     { link: "/", name: "Strona Główna" },
-    { link: "/", name: "Wizualizacje" },
-    { link: "/", name: "Rzuty" },
+    { link: "/nieruchomosci_sycow_osiedle_lesne/#gallery", name: "Wizualizacje" },
+    { link: "/nieruchomosci_sycow_osiedle_lesne/#plans", name: "Rzuty" },
     { link: "/dlaczego_nieruchomosci_sycow", name: "Dlaczego Syców?" },
     { link: "/nieruchomosci_sycow_osiedle_lesne/#c", name: "Kontakt" },
   ];
