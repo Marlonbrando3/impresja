@@ -11,6 +11,7 @@ import Slider from "../components/osiedleLesne/slider";
 import QandaComponent from "../components/qanda/qandaComponent";
 import Qanda from "../components/qand";
 import PropertiesLists from "../components/aboutProperties.tsx/propertiesLists";
+import Map from "../components/osiedleLesne/map";
 
 export default function Page() {
   return (
@@ -42,6 +43,7 @@ export default function Page() {
         <MainView />
         <SecondView />
         <Thirdview />
+        <Map />
         <Slider />
         <PropertiesLists />
         <Qanda />

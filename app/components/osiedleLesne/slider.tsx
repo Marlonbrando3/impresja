@@ -41,13 +41,13 @@ export default function Slider() {
 
   return (
     <div id="gallery" className="w-full h-[500px] mb-[120px] ">
-      <div className="lg:w-[1020px] w-[90vw] h-full  mx-auto flex justify-center items-center flex-col">
+      <div className="lg:w-[1120px] w-[90vw] h-full  mx-auto flex justify-center items-center flex-col">
         <p
           className={`${TenorsSans.className} text-[28px] lg:text-[32px] lg:w-[900px] w-full leading-[35px] text-[#723C19] mb-[30px]`}
         >
           Galeria
         </p>
-        <div className="lg:w-[900px] w-full h-[370px] overflow-hidden relative rounded-xl">
+        <div className="lg:w-[1000px] w-full h-[370px] overflow-hidden relative rounded-xl">
           {actualImage !== 1 && (
             <PiArrowCircleLeftThin
               onClick={handleSlideLeftButton}

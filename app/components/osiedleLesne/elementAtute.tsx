@@ -17,7 +17,7 @@ export default function ElementAtute() {
   return atuts.map((i) => (
     <div
       key={i.id}
-      className="lg:w-[30%] w-[50%] md:h-[440px] flex justify-between flex-col mt-[30px] md:mt-0"
+      className="lg:w-[30%] w-[50%] md:h-[440px] h-auto flex justify-between flex-col mt-[30px] md:mt-0"
     >
       <div className="w-[50px] h-[50px] text-[#e4c27e]">
         {(i.id === 1 && <TbMapBolt className="w-full h-full" />) ||
@@ -30,7 +30,7 @@ export default function ElementAtute() {
       <div className="md:w-[65%] h-[60px] font-bold md:text-[20px] text-[16px] text-left">
         {i.title.toUpperCase()}
       </div>
-      <div className="lg:w-[80%] w-[90%] lg:h-[300px] h-[350px] text-left">{i.description}</div>
+      <div className="lg:w-[80%] w-[90%] lg:h-[300px] min-h-[350px] text-left">{i.description}</div>
     </div>
   ));
 }
