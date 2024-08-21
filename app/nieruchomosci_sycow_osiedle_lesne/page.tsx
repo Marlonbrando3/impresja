@@ -15,7 +15,7 @@ import PropertiesLists from "../components/aboutProperties.tsx/propertiesLists";
 import Map from "../components/osiedleLesne/map";
 
 export default function Page() {
-  const Video = dynamic(() => import("../components/osiedleLesne/video"));
+  const Video = dynamic(() => import("../components/osiedleLesne/video"), { ssr: false });
 
   return (
     <>
