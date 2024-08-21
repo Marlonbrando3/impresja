@@ -13,9 +13,7 @@ import PropertiesLists from "../components/aboutProperties.tsx/propertiesLists";
 import Map from "../components/osiedleLesne/map";
 
 export default function Page() {
-  const Video = dynamic(() => import("../components/osiedleLesne/video"), {
-    loading: () => <p>Łąduję video...</p>,
-  });
+  const Video = dynamic(() => import("../components/osiedleLesne/video"));
 
   return (
     <>
@@ -45,7 +43,7 @@ export default function Page() {
         <HeaderTransparent />
         <MainView />
         <SecondView />
-        {/* <Video /> */}
+        <Video />
         <Thirdview />
         <Map />
         <Slider />
