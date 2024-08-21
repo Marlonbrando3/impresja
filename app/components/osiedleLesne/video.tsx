@@ -46,10 +46,10 @@ export default function Video() {
             height="100%"
             src="https://www.youtube.com/embed/uhmTYJceekA?si=Cdhx1kc2gJOyo8o6&controls=1&playlist=uhmTYJceekA"
             title="YouTube video player"
-            frameborder="0"
+            // frameBorder={true}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; frameborder"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+            // referrerpolicy="strict-origin-when-cross-origin"
+            // allowfullscreen
           ></iframe>
         </div>
       </div>
