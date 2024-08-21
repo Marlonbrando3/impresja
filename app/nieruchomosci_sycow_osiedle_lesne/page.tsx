@@ -12,6 +12,7 @@ import QandaComponent from "../components/qanda/qandaComponent";
 import Qanda from "../components/qand";
 import PropertiesLists from "../components/aboutProperties.tsx/propertiesLists";
 import Map from "../components/osiedleLesne/map";
+import Video from "../components/osiedleLesne/video";
 
 export default function Page() {
   return (
@@ -40,6 +41,7 @@ export default function Page() {
       </Head>
       <div>
         <HeaderTransparent />
+        <Video />
         <MainView />
         <SecondView />
         <Thirdview />

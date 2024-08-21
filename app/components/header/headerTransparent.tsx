@@ -22,9 +22,10 @@ export default function HeaderTransparent() {
 
   const data = [
     { link: "/", name: "Strona Główna" },
-    { link: "/nieruchomosci_sycow_osiedle_lesne/#gallery", name: "Wizualizacje" },
-    { link: "/nieruchomosci_sycow_osiedle_lesne/#plans", name: "Rzuty" },
+    { link: "/nieruchomosci_sycow_osiedle_lesne/#gallery", name: "Wizualizacje i Rzuty" },
+    // { link: "/nieruchomosci_sycow_osiedle_lesne/#plans", name: "Rzuty" },
     { link: "/nieruchomosci_sycow_osiedle_lesne/#qanda", name: "Q & A" },
+    { link: "/nieruchomosci_sycow_osiedle_lesne/#video", name: "Video z inwestycji" },
     { link: "/dlaczego_nieruchomosci_sycow", name: "Dlaczego Syców?" },
     { link: "/nieruchomosci_sycow_osiedle_lesne/#c", name: "Kontakt" },
   ];
