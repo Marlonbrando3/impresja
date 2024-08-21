@@ -14,7 +14,7 @@ export default function Video() {
       <p className="text-[28px] md:w-[360px] w-full leading-[35px] text-[#723C19] mx-auto mb-[30px] float-left">
         Projekt z lotu ptaka
       </p>
-      <div className="lg:w-[1000px] lg:h-[563px] md:w-[730px] md:h-[410px] sm:w-[600px] sm:h-[337px] w-[340px] h-[225px] bg-gray-300 mx-auto left-0 right-0 z-10 my-auto top-0 bottom-0  rounded-xl overflow-hidden">
+      <div className="lg:w-[1000px] lg:h-[563px] md:w-[730px] md:h-[410px] sm:w-[600px] sm:h-[337px] w-[340px] h-[191px] bg-gray-300 mx-auto left-0 right-0 z-10 my-auto top-0 bottom-0  rounded-xl overflow-hidden">
         <div className="relative w-full h-full">
           <iframe
             width="100%"
