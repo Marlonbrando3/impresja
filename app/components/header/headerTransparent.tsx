@@ -45,7 +45,12 @@ export default function HeaderTransparent() {
   const onScroll = useCallback(() => {
     const { scrollX, scrollY, innerWidth } = window;
     // console.log("yOffset", innerWidth, "scrollY", scrollY);
+
     if (scrollY > 120) {
+      if (scrollX < 1024) {
+        closedMenu.current.style.color = "black";
+        openedMenu.current.style.color = "black";
+      }
       headerDesktop.current.style.transition = "0.7s";
       imageLogo.current.srcset = "/impresja_logo.png";
       headerDesktop.current.style.background = "white";
@@ -57,6 +62,12 @@ export default function HeaderTransparent() {
       headerDesktop.current.style.background = "transparent";
       headerDesktop.current.style.boxShadow = "0px 0px 0px 0px black";
       headerDesktop.current.style.color = "white";
+
+      if (scrollX < 1024) {
+        headerDesktop.current.style.color = "black";
+        closedMenu.current.style.color = "white";
+        openedMenu.current.style.color = "white";
+      }
     }
   }, []);
 
@@ -75,7 +86,7 @@ export default function HeaderTransparent() {
       <div ref={headerDesktop} className="h-[70px] w-full fixed bg-transparent z-30">
         <div
           ref={mobileMenu}
-          className="w-full h-[30vh] bg-white absolute right-[100%] top-[70px] z-50 duration-200 flex items-center flex-col"
+          className="w-full h-[33vh] bg-white absolute right-[100%] top-[70px] z-50 duration-200 flex items-center flex-col"
         >
           {data.map((el) => (
             <Menubuttontransparent key={el.name} element={el.name} link={el.link} />
@@ -98,15 +109,23 @@ export default function HeaderTransparent() {
             ))}
             {/* <Addoffer addYourOffer={addYourOffer} /> */}
           </div>
-          <div ref={closedMenu} onClick={showMenu} className="block lg:hidden w-[40px] h-[40px]">
-            <MdOutlineMenu onClick={showMenu} className="w-[40px] h-[40px] cursor-pointer" />
+          <div
+            ref={closedMenu}
+            onClick={showMenu}
+            className="block lg:hidden w-[40px] h-[40px] text-white"
+          >
+            <MdOutlineMenu
+              id="MdOutlineMenuRef"
+              onClick={showMenu}
+              className="w-[40px] h-[40px] cursor-pointer"
+            />
           </div>
           <div
             ref={openedMenu}
             onClick={hideMenu}
-            className="hidden lg:hidden w-[40px] h-[40px] cursor-pointer"
+            className="hidden lg:hidden w-[40px] h-[40px] cursor-pointer text-white"
           >
-            <MdOutlineMenuOpen className="w-[40px] h-[40px]" />
+            <MdOutlineMenuOpen id="MdOutlineMenuOpenRef" className="w-[40px] h-[40px]" />
           </div>
         </div>
       </div>
