@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import Header from "../components/header/header";
 import MainView from "../components/osiedleLesne/mainView";
 import SecondView from "../components/osiedleLesne/secondView";
 import HeaderTransparent from "../components/header/headerTransparent";
@@ -9,7 +8,6 @@ import ContactformOsiedleLesne from "../components/contactfrom/contactformOsiedl
 import Footer from "../components/footer/footer";
 import dynamic from "next/dynamic";
 import Slider from "../components/osiedleLesne/slider";
-import QandaComponent from "../components/qanda/qandaComponent";
 import Qanda from "../components/qand";
 import PropertiesLists from "../components/aboutProperties.tsx/propertiesLists";
 import Map from "../components/osiedleLesne/map";
@@ -47,7 +45,7 @@ export default function Page() {
         <HeaderTransparent />
         <MainView />
         <SecondView />
-        <Video />
+        {/* <Video /> */}
         <Thirdview />
         <Map />
         <Slider />
