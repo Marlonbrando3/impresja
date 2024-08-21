@@ -44,10 +44,10 @@ export default function HeaderTransparent() {
 
   const onScroll = useCallback(() => {
     const { scrollX, scrollY, innerWidth } = window;
-    // console.log("yOffset", innerWidth, "scrollY", scrollY);
+    // console.log("yOffset", scrollX, "scrollY", scrollY);
 
     if (scrollY > 120) {
-      if (scrollX < 1024) {
+      if (innerWidth < 1024) {
         closedMenu.current.style.color = "black";
         openedMenu.current.style.color = "black";
       }
@@ -61,12 +61,14 @@ export default function HeaderTransparent() {
       imageLogo.current.srcset = "/impresja_logo_white.png";
       headerDesktop.current.style.background = "transparent";
       headerDesktop.current.style.boxShadow = "0px 0px 0px 0px black";
-      headerDesktop.current.style.color = "white";
+      // headerDesktop.current.style.color = "white";
 
-      if (scrollX < 1024) {
+      if (innerWidth < 1024) {
         headerDesktop.current.style.color = "black";
         closedMenu.current.style.color = "white";
         openedMenu.current.style.color = "white";
+      } else {
+        headerDesktop.current.style.color = "white";
       }
     }
   }, []);

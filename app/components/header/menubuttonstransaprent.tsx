@@ -15,8 +15,8 @@ export default function Menubuttontransparent({ element, link }: Menu) {
           : link
       }`}
       className={`${
-        (element === "Kontakt" && "bg-blue-500") ||
-        (element === "Video z inwestycji" && "bg-[#dcb15c]")
+        (element === "Kontakt" && "bg-blue-500 text-white") ||
+        (element === "Video z inwestycji" && "bg-[#dcb15c] text-white")
       } rounded-[7px] p-[7px] cursor-pointer hover:bg-[#DCB15C] hover:text-white duration-200 mx-[7px] `}
     >
       {element}

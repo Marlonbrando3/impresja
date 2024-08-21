@@ -6,7 +6,7 @@ export default function SecondView() {
   return (
     <div
       id="more-info"
-      className={`${TenorsSans.className} w-[90vw] md:h-[900px] h-auto border-red-900 py-[50px] md:py-auto md:px-[10px] mx-auto`}
+      className={`${TenorsSans.className} w-[90vw] md:h-[900px] h-auto border-red-900 pt-[80px] md:py-auto md:px-[10px] mx-auto`}
     >
       <div className="md:w-[1020px] w-full h-full border-gray-600 mx-auto flex justify-start items-start flex-wrap">
         <div className=" flex flex-col md:w-[50%] h-[50%] w-full mx-auto">
