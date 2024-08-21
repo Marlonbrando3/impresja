@@ -26,7 +26,7 @@ export default function SecondView() {
         </div>
         <div className="border w-[40%] h-[50%] relative rounded-xl overflow-hidden hidden md:block">
           <Image
-            src="/nieruchomosci_sycow_secondview_1.png"
+            src="/nieruchomosci_sycow_secondview_1.jpg"
             fill
             objectFit="cover"
             alt="nieruchomości_syców"
