@@ -1,13 +1,6 @@
-"use client";
-
 import React, { useEffect, useRef } from "react";
-import { useRouter, useSearchParams, usePathname } from "next/navigation";
 
 export default function Video() {
-  const router = useRouter();
-  const params = useSearchParams();
-  const path = usePathname();
-
   return (
     <div id="video" className="lg:w-[1020px] w-[90vw] pt-[80px] border-gray-600 mx-auto">
       {" "}
