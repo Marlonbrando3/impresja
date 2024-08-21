@@ -8,7 +8,7 @@ export default function MainView() {
   return (
     <>
       <div
-        className={`${DMSerif.className} w-full h-screen bg-[url('/nieruchomosci_syców_2.png')] -mt-[70px] bg-cover`}
+        className={`${DMSerif.className} w-full h-[780px] bg-[url('/nieruchomosci_syców_2.jpg')] -mt-[70px] bg-cover`}
       >
         <div className="lg:w-[1020px] w-[90%] mx-auto h-full flex- flex-col pt-[140px] pb-[120px] flex justify-between">
           <div className="flex flex-col justify-between h-[220px]">

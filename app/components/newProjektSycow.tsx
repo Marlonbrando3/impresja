@@ -19,7 +19,7 @@ export default function NewProjektSycow() {
   return (
     <div
       ref={popUp}
-      className="fixed md:w-[500px] w-[95vw] h-[500px] shadow-2xl z-30 top-0 bottom-0 my-auto mx-auto right-0 left-0 bg-red-900 bg-[url('/nieruchomosci_syców_2.png')] bg-cover p-[30px] rounded-md hidden"
+      className="fixed md:w-[500px] w-[95vw] h-[500px] shadow-2xl z-30 top-0 bottom-0 my-auto mx-auto right-0 left-0 bg-red-900 bg-[url('/nieruchomosci_syców_2.jpg')] bg-cover p-[30px] rounded-md hidden"
     >
       <div
         onClick={handlingClosing}
