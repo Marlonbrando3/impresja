@@ -7,14 +7,16 @@ import HeaderTransparent from "../components/header/headerTransparent";
 import Thirdview from "../components/osiedleLesne/thirdview";
 import ContactformOsiedleLesne from "../components/contactfrom/contactformOsiedleLesne";
 import Footer from "../components/footer/footer";
+import dynamic from "next/dynamic";
 import Slider from "../components/osiedleLesne/slider";
 import QandaComponent from "../components/qanda/qandaComponent";
 import Qanda from "../components/qand";
 import PropertiesLists from "../components/aboutProperties.tsx/propertiesLists";
 import Map from "../components/osiedleLesne/map";
-import Video from "../components/osiedleLesne/video";
 
 export default function Page() {
+  const Video = dynamic(() => import("../components/osiedleLesne/video"));
+
   return (
     <>
       <Head>
