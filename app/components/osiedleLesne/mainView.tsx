@@ -26,7 +26,7 @@ export default function MainView() {
                 INWESTYCJA W NAJLEPSZEJ LOKALIZACJI W SYCOWIE
               </div>
             </div>
-            <div className="text-white w-[190px] h-[48px] mt-[20px] font-bold text-[24px] leading-[25px]">
+            <div className="text-white w-[240px] h-[48px] mt-[20px] font-bold text-[24px] leading-[25px] border">
               Mieszkania 56 m<sup>2</sup> Domy 110 m<sup>2</sup>
             </div>
           </div>
