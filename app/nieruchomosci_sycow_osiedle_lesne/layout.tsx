@@ -1,11 +1,15 @@
 import type { Metadata, Viewport } from "next";
 import { TenorsSans, DMSerif } from "../fonts/fonts";
 import "../globals.css";
+import GoogleAnalitycs from "../components/googleAnalitycs";
 
 export const metadata: Metadata = {
-  title: "Nieruchomości Syców, Domy na sprzedaż Syców",
+  title: "Nieruchomości Syców - nowe domy oraz mieszkania",
   description:
     "Nowa inwestycja złożona z dwupoziomowych szeregówek w Sycowie. Kameralna, cicha i jednocześnie blisko infrastruktury na najlepszej działce w Sycowie.",
+  icons: {
+    icon: "/icon_logo.ico",
+  },
 };
 
 export const viewport: Viewport = {
@@ -20,6 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pl">
+      <GoogleAnalitycs />
       <body className={`${TenorsSans.className} ${DMSerif.className}`}>{children}</body>
     </html>
   );
