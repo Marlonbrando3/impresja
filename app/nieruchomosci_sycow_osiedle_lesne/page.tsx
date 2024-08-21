@@ -41,9 +41,9 @@ export default function Page() {
       </Head>
       <div>
         <HeaderTransparent />
-        <Video />
         <MainView />
         <SecondView />
+        <Video />
         <Thirdview />
         <Map />
         <Slider />

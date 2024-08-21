@@ -13,12 +13,11 @@ export default function Video() {
 
   useEffect(() => {
     // console.log(window.location);
-
-    if (window.location.hash === "#video") {
-      videoPopUp.current.style.display = "block";
-    } else {
-      videoPopUp.current.style.display = "none";
-    }
+    // if (window.location.hash === "#video") {
+    //   videoPopUp.current.style.display = "block";
+    // } else {
+    //   videoPopUp.current.style.display = "none";
+    // }
   });
 
   const handleClosingVideo = () => {
@@ -28,18 +27,16 @@ export default function Video() {
   };
 
   return (
-    <>
+    <div className="lg:w-[1020px] w-[90vw] pb-[50px] border-gray-600 mx-auto">
+      {" "}
+      <p className="text-[28px] md:w-[360px] w-full leading-[35px] text-[#723C19] mx-auto mb-[30px] float-left">
+        Projekt z lotu ptaka
+      </p>
       <div
         ref={videoPopUp}
-        className="hidden lg:w-[1000px] lg:h-[563px] md:w-[730px] md:h-[410px] w-[400px] h-[225px] fixed bg-gray-300 mx-auto left-0 right-0 z-10 my-auto top-0 bottom-0 shadow-[0px_0px_125px_65px_rgba(0,0,0,0.3)] rounded-xl overflow-hidden"
+        className="lg:w-[1000px] lg:h-[563px] md:w-[730px] md:h-[410px] sm:w-[600px] sm:h-[337px] w-[400px] h-[225px] bg-gray-300 mx-auto left-0 right-0 z-10 my-auto top-0 bottom-0  rounded-xl overflow-hidden"
       >
         <div className="relative w-full h-full">
-          <div
-            className="absolute w-[100px] h-[40px] bg-white z-20 right-0 top-0 flex items-center justify-center cursor-pointer hover:bg-orange-500 hover:text-white"
-            onClick={handleClosingVideo}
-          >
-            Zamknij X
-          </div>
           <iframe
             ref={YTvideo}
             width="100%"
@@ -53,6 +50,6 @@ export default function Video() {
           ></iframe>
         </div>
       </div>
-    </>
+    </div>
   );
 }

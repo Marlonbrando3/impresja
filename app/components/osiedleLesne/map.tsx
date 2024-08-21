@@ -11,7 +11,7 @@ export default function Map() {
           <p
             className={`${TenorsSans.className} lg:text-[32px] text-[28px] lg:w-[900px] w-full leading-[35px] text-[#723C19] mb-[30px]`}
           >
-            <p className="inline lg:text-[32px] text-[28px]">Mapa okolicy</p>
+            <p className="inline lg:text-[32px] text-[28px]">Okolica</p>
           </p>
           <div className="lg:w-full w-[90vw] md:h-[650px] h-[350px] relative">
             <Image

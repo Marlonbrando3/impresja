@@ -8,9 +8,9 @@ export default function SecondView() {
       id="more-info"
       className={`${TenorsSans.className} w-[90vw] md:h-[900px] h-auto border-red-900 py-[50px] md:py-auto md:px-[10px] mx-auto`}
     >
-      <div className="md:w-[1020px] w-full h-full border-gray-600 mx-auto flex justify-between items-center flex-wrap">
+      <div className="md:w-[1020px] w-full h-full border-gray-600 mx-auto flex justify-start items-start flex-wrap">
         <div className=" flex flex-col md:w-[50%] h-[50%] w-full mx-auto">
-          <p className="text-[28px] md:w-[360px] w-full leading-[35px] text-[#723C19] mb-[30px] mx-auto">
+          <p className="text-[28px] md:w-[360px] w-full leading-[35px] text-[#723C19] mb-[30px] ">
             Kameralna inwestycja blisko centrum i zieleni
           </p>
           <p className="text-[18px] leading-[24px] mx-auto ">
