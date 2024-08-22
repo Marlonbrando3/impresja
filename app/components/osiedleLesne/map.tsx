@@ -6,7 +6,7 @@ export default function Map() {
   return (
     <div>
       {" "}
-      <div id="qanda" className="w-full h-auto lg:mb-[120px] mb-[40px] ">
+      <div id="map" className="w-full h-auto lg:mb-[120px] mb-[40px] ">
         <div className=" py-[20px] lg:w-[1000px] w-[90vw] h-full mx-auto">
           <p
             className={`${TenorsSans.className} lg:text-[32px] text-[28px] lg:w-[900px] w-full leading-[35px] text-[#723C19] mb-[30px]`}
