@@ -57,10 +57,10 @@ export default function Home() {
         <NewProjektSycow />
         <Header />
         <View />
-        <Secondview />
+        {/* <Secondview />
         <Offersonmainpage />
         <Contactform />
-        <Footer />
+        <Footer /> */}
       </main>
     </>
   );
