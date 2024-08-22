@@ -28,15 +28,14 @@ export default function Video() {
       {showedVideo === true && (
         <div id="video" className="lg:w-[1020px] w-[90vw] pt-[80px] border-gray-600 mx-auto">
           {" "}
-          <p className="text-[28px] md:w-[360px] w-full leading-[35px] text-[#723C19] mx-auto mb-[30px] float-left">
+          <p className="text-[28px] w-full leading-[35px] text-[#723C19] mx-auto mb-[30px] float-left">
             Projekt z lotu ptaka
           </p>
-          <div className="lg:w-[1000px] lg:h-[563px] md:w-[730px] md:h-[410px] sm:w-[600px] sm:h-[337px] w-[340px] h-[191px] bg-gray-300 mx-auto left-0 right-0 z-10 my-auto top-0 bottom-0  rounded-xl overflow-hidden">
-            <div className="relative w-full h-full">
+          <div className="relative lg:w-[1000px] w-full rounded-xl overflow-hidden">
+            <div className="h-0 pt-[56.25%]">
               <iframe
                 loading="lazy"
-                width="100%"
-                height="100%"
+                className="w-full h-full absolute top-0 left-0"
                 src="https://www.youtube.com/embed/uhmTYJceekA?si=Cdhx1kc2gJOyo8o6&controls=1&playlist=uhmTYJceekA"
                 title="Nieruchomości Syców"
                 // frameBorder={true}
