@@ -25,13 +25,13 @@ export default function Video() {
   });
   return (
     <>
-      {showedVideo === true && (
-        <div id="video" className="lg:w-[1020px] w-[90vw] pt-[80px] border-gray-600 mx-auto">
-          {" "}
-          <p className="text-[28px] w-full leading-[35px] text-[#723C19] mx-auto mb-[30px] float-left">
-            Projekt z lotu ptaka
-          </p>
-          <div className="relative lg:w-[1000px] w-full rounded-xl overflow-hidden">
+      <div id="video" className="lg:w-[1020px] w-[90vw] pt-[80px] border-gray-600 mx-auto">
+        {" "}
+        <p className="text-[28px] w-full leading-[35px] text-[#723C19] mx-auto mb-[30px] float-left">
+          Projekt z lotu ptaka
+        </p>
+        <div className="relative lg:w-[1000px] w-full rounded-xl overflow-hidden">
+          {showedVideo === true && (
             <div className="h-0 pt-[56.25%]">
               <iframe
                 loading="lazy"
@@ -44,9 +44,9 @@ export default function Video() {
                 // allowfullscreen
               ></iframe>
             </div>
-          </div>
+          )}
         </div>
-      )}
+      </div>
     </>
   );
 }
