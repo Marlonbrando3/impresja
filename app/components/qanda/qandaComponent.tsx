@@ -24,7 +24,7 @@ export default function QandaComponent({ data, items }: Question) {
   };
   return (
     <>
-      <div className="flex border border-[#e4c27e] items-center my-[3px]">
+      <div className="flex border-t border-[#e4c27e] items-center my-[3px] py-[20px]">
         <div
           onClick={() => handlingQANDA(data.id)}
           id={data.id}
