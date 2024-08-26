@@ -30,7 +30,6 @@ export default function RootLayout({
 
   return (
     <html lang="pl">
-      <HotJar />
       <GoogleAnalitycs />
       <body className={`${TenorsSans.className} ${DMSerif.className}`}>{children}</body>
     </html>
