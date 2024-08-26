@@ -1,4 +1,4 @@
-export async function POST(req: Request) {
+export async function POST(req: any) {
   let nodemailer = require("nodemailer");
 
   const params = await req.json();
