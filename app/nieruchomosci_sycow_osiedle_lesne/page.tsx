@@ -1,5 +1,4 @@
 import React from "react";
-import Hotjar from "@hotjar/browser";
 import Head from "next/head";
 import MainView from "../components/osiedleLesne/mainView";
 import SecondView from "../components/osiedleLesne/secondView";
@@ -15,11 +14,6 @@ import Map from "../components/osiedleLesne/map";
 
 export default function Page() {
   const Video = dynamic(() => import("../components/osiedleLesne/video"));
-
-  const siteId = 5083945;
-  const hotjarVersion = 6;
-
-  Hotjar.init(siteId, hotjarVersion);
 
   return (
     <>

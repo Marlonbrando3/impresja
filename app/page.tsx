@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Hotjar from "@hotjar/browser";
 import Script from "next/script";
 import Head from "next/head";
 import Header from "./components/header/header";
@@ -12,11 +11,6 @@ import AddYorOffer from "./components/searchonmainpage/addYorOffer";
 import NewProjektSycow from "./components/newProjektSycow";
 
 export default function Home() {
-  const siteId = 5083945;
-  const hotjarVersion = 6;
-
-  Hotjar.init(siteId, hotjarVersion);
-
   return (
     <>
       <Script
