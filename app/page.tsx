@@ -33,12 +33,12 @@ export default function Home() {
         gtag('config', 'G-NNW1E1J5PY');`}
       </Script>
       <Head>
-        <meta property="Nieruchomości w Hiszpanii, Chorwacji, Portugalii" content="image" />
+        <meta property="Nieruchomości Syców, Namysłów, Kluczbork" content="image" />
         <title>Biuro nieruchomości Namysłów. Biuro nieruchomości Syców.</title>
         <link rel="shortcut icon" href="/icon_logo.png" />
         <meta
           name="Keywords"
-          content="nieruchomości w namysłowie, domy w namysłowie, mieszkania Syców, mieszkania namysłów"
+          content="nieruchomości w Namysłowie, domy w Namysłowie, mieszkania Syców, mieszkania Namysłów"
         />
         <meta
           name="Description"

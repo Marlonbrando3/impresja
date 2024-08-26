@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
 import GoogleAnalitycs from "./components/googleAnalitycs";
-import HotJar from "./components/hotJar";
+import Hotjar from "@hotjar/browser";
 
 const inter = Roboto({ subsets: ["latin"], weight: "300" });
 
@@ -21,9 +21,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const siteId = 5083945;
+  const hotjarVersion = 6;
+
+  Hotjar.init(siteId, hotjarVersion);
+
   return (
     <html lang="pl">
-      <HotJar />
       <GoogleAnalitycs />
       <body className={inter.className}>{children}</body>
     </html>
