@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { TenorsSans, DMSerif } from "../fonts/fonts";
 import "../globals.css";
 import GoogleAnalitycs from "../components/googleAnalitycs";
+import HotJar from "../components/hotJar";
 
 export const metadata: Metadata = {
   title: "Nieruchomości Syców - nowe domy oraz mieszkania",
@@ -24,6 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pl">
+      <HotJar />
       <GoogleAnalitycs />
       <body className={`${TenorsSans.className} ${DMSerif.className}`}>{children}</body>
     </html>

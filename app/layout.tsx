@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
+import GoogleAnalitycs from "./components/googleAnalitycs";
+import HotJar from "./components/hotJar";
 
 const inter = Roboto({ subsets: ["latin"], weight: "300" });
 
@@ -21,6 +23,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pl">
+      <HotJar />
+      <GoogleAnalitycs />
       <body className={inter.className}>{children}</body>
     </html>
   );

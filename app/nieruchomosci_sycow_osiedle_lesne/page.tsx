@@ -1,4 +1,5 @@
 import React from "react";
+import Script from "next/script";
 import Head from "next/head";
 import MainView from "../components/osiedleLesne/mainView";
 import SecondView from "../components/osiedleLesne/secondView";
