@@ -7,7 +7,7 @@ export async function POST(req: any) {
   const fromEmail = process.env.FROM_EMAIL;
   const pass = process.env.EMAIL_PASS;
 
-  const transporter = await nodemailer.createTransport({
+  const transporter = nodemailer.createTransport({
     port: 465,
     host: "mail-serwer141299.lh.pl",
     secure: true,
@@ -19,19 +19,6 @@ export async function POST(req: any) {
       user: fromEmail,
       pass: pass,
     },
-  });
-
-  await new Promise((resolve, reject) => {
-    // verify connection configuration
-    transporter.verify(function (error: any, success: any) {
-      if (error) {
-        console.log(error);
-        reject(error);
-      } else {
-        console.log("Server is ready to take our messages");
-        resolve(success);
-      }
-    });
   });
 
   const mailData = {
@@ -50,14 +37,16 @@ export async function POST(req: any) {
       `<br>`,
   };
 
-  async function send() {
-    await transporter.sendMail(mailData, function (err: any, info: any) {
-      console.log("wysłane");
-      if (err) console.log(err);
-      else console.log(info);
+  await new Promise((resolve, reject) => {
+    transporter.sendMail(mailData, (err: any, info: any) => {
+      if (err) {
+        console.error(err);
+        reject(err);
+      } else {
+        resolve(info);
+      }
     });
-    Response.json({ status: 200 });
-  }
+  });
 
-  send();
+  // send();
 }
