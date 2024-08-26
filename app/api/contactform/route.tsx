@@ -7,7 +7,7 @@ export async function POST(req: Request, id: any) {
   const fromEmail = process.env.FROM_EMAIL;
   const pass = process.env.EMAIL_PASS;
 
-  const transporter = nodemailer.createTransport({
+  const transporter = await nodemailer.createTransport({
     port: 465,
     host: "mail-serwer141299.lh.pl",
     secure: true,
