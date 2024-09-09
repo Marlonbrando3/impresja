@@ -27,7 +27,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "../../Onesta/Strona Formularz 2.9/form/app/components/facebookPixel.tsx"  ],
   "exclude": [
     "node_modules"
   ]

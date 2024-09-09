@@ -24,7 +24,7 @@ export async function POST(req: any) {
   const mailData = {
     from: fromEmail,
     to: endEmail,
-    subject: `Wiadomość ze strony od: ${params.name}`,
+    subject: `Formularz Onesta: ${params.name}`,
     text: "Hello. This email is for your email verification.",
     html:
       `Imię i nazwisko: ${params.name} ${params.lastName}` +

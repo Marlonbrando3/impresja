@@ -5,12 +5,12 @@ import GoogleAnalitycs from "../components/googleAnalitycs";
 import HotJar from "../components/hotJar";
 
 export const metadata: Metadata = {
-  title: "Nieruchomości Syców - nowe domy oraz mieszkania",
+  title: "Nowe domy oraz mieszkania w Sycowie || Osiedle Syców w najlepszej lokalizacji w Sycowie.",
   description:
     "Nowa inwestycja złożona z dwupoziomowych szeregówek w Sycowie. Kameralna, cicha i jednocześnie blisko infrastruktury na najlepszej działce w Sycowie.",
-  icons: {
-    icon: "/icon_logo.ico",
-  },
+  // icons: {
+  //   icon: "/icon_logo.ico",
+  // },
 };
 
 export const viewport: Viewport = {
