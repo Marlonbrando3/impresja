@@ -21,7 +21,6 @@ export default function Page() {
         <title>Nieruchomości Syców - nowe domy oraz mieszkania</title>
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin=""></link>
-        <link rel="shortcut icon" href="/icon_logo.png" />
         <link
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap"
           rel="stylesheet"
