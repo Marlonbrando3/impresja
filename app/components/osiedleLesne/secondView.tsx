@@ -34,7 +34,12 @@ export default function SecondView() {
         </div>
         <div className="md:w-[70%] w-full bg-yellow-400 h-[300px] relative mx-auto md:-mt-[140px] border-4 border-white rounded-xl overflow-hidden">
           {" "}
-          <Image src="/slajd3.jpg" fill objectFit="cover" alt="nieruchomości-Syców"></Image>
+          <Image
+            src="/mieszkanie-na-sprzedaz-sycow-slajd3.jpg"
+            fill
+            objectFit="cover"
+            alt="nieruchomości-Syców"
+          ></Image>
         </div>
       </div>{" "}
     </div>
