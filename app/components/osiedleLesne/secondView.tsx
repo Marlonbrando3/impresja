@@ -10,7 +10,7 @@ export default function SecondView() {
     >
       <div className="md:w-[1020px] w-full h-full border-gray-600 mx-auto flex justify-start items-start flex-wrap">
         <div className=" flex flex-col md:w-[50%] h-[50%] w-full mx-auto">
-          <p className="text-[38px] md:w-[400px] w-full leading-[37px] text-[#723C19] mb-[30px] ">
+          <p className="text-[42px] md:w-[500px] w-full leading-[42px] text-[#723C19] mb-[30px] ">
             Kameralny projekt <h2>mnieszkań w Sycowie</h2> blisko centrum i zieleni
           </p>
           <p className="text-[18px] leading-[24px] mx-auto ">
@@ -24,7 +24,7 @@ export default function SecondView() {
             komunikację z innymi miastami, głównie z Wrocławiem, Kępnem czy Oleśnicą.
           </p>
         </div>
-        <div className="border w-[40%] h-[50%] relative rounded-xl overflow-hidden hidden md:block">
+        <div className="border w-[40%] h-[80%] relative rounded-xl overflow-hidden hidden md:block">
           <Image
             src="/mieszkania-na-sprzedaz-sycow-1.jpg"
             fill

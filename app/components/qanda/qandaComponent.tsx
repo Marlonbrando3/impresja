@@ -1,5 +1,6 @@
 import React from "react";
 import { IoMdArrowDropdown } from "react-icons/io";
+import { DMSerif } from "../../fonts/fonts";
 
 type Question = {
   data: any;
@@ -28,7 +29,7 @@ export default function QandaComponent({ data, items }: Question) {
         <h2
           onClick={() => handlingQANDA(data.id)}
           id={data.id}
-          className="w-full h-[40px] flex items-center font-bold lg:text-[20px] text-[18px] pl-[10px] leading-[24px] cursor-pointer py-[30px] md:py-0"
+          className={` w-full h-[40px] flex items-center lg:text-[22px] font-semibold text-[18px] pl-[10px] leading-[26px] cursor-pointer py-[30px] md:py-0 `}
           dangerouslySetInnerHTML={{ __html: data.topic }}
         ></h2>
         <IoMdArrowDropdown

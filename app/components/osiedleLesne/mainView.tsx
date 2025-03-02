@@ -1,8 +1,7 @@
-import Head from "next/head";
-import React from "react";
-import Link from "next/link";
 import { DMSerif } from "../../fonts/fonts";
 import { TenorsSans } from "../../fonts/fonts";
+import React from "react";
+import Link from "next/link";
 
 export default function MainView() {
   return (

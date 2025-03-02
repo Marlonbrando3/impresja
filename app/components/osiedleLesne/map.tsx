@@ -20,7 +20,7 @@ export default function Map() {
           </div>
           <div className="lg:w-full w-[90vw] md:h-[650px] h-[220px] relative">
             <Image
-              src="/mapka_gajowa.jpg"
+              src="/mieszkania-sycow-mapka.jpg"
               fill
               objectFit="contain"
               alt="nieruchomości-sycow-mieszkania-sycow"

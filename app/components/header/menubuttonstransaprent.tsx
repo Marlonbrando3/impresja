@@ -10,9 +10,7 @@ export default function Menubuttontransparent({ element, link }: Menu) {
   return (
     <Link
       href={`${
-        element === "Dlaczego Syców?"
-          ? "/nieruchomosci_sycow_osiedle_lesne/dlaczego_nieruchomosci_sycow"
-          : link
+        element === "Dlaczego Syców?" ? "/nowe-mieszkania-sycow/dlaczego_nieruchomosci_sycow" : link
       }`}
       className={`${
         (element === "Kontakt" && "bg-blue-500 text-white") ||

@@ -16,7 +16,12 @@ export default function ImageEl({ imagesRef }: Images) {
           key={i.id}
           className="w-[550px] h-[370px] relative flex border-r-4 border-white transition-duration-200"
         >
-          <Image src={`/slajd${i.id}.jpg`} alt={i.description} fill objectFit="cover"></Image>
+          <Image
+            src={`/mieszkanie-na-sprzedaz-sycow-slajd${i.id}.jpg`}
+            alt={i.description}
+            fill
+            objectFit="cover"
+          ></Image>
         </div>
       ))}
     </div>
