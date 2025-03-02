@@ -21,13 +21,13 @@ export default function HeaderTransparent() {
   const menu = ["Strona główna", "Oferty Nieruchomości", "O nas", "Blog", "Kontakt"];
 
   const data = [
-    { link: "/", name: "Strona Główna" },
-    { link: "/nieruchomosci_sycow_osiedle_lesne/#gallery", name: "Wizualizacje i Rzuty" },
+    // { link: "/", name: "Strona Główna" },
+    { link: "/nowe-mieszkania-sycow/#gallery", name: "Wizualizacje i Rzuty" },
     // { link: "/nieruchomosci_sycow_osiedle_lesne/#plans", name: "Rzuty" },
-    { link: "/nieruchomosci_sycow_osiedle_lesne/#qanda", name: "Q & A" },
-    { link: "/nieruchomosci_sycow_osiedle_lesne/#video", name: "Video z inwestycji" },
-    { link: "/dlaczego_nieruchomosci_sycow", name: "Dlaczego Syców?" },
-    { link: "/nieruchomosci_sycow_osiedle_lesne/#c", name: "Kontakt" },
+    { link: "/nowe-mieszkania-sycow/#qanda", name: "Q & A" },
+    { link: "/nowe-mieszkania-sycow/#video", name: "Video z inwestycji" },
+    { link: "/dlaczego-nieruchomosci-sycow", name: "Dlaczego Syców?" },
+    { link: "/nowe-mieszkania-sycow/#c", name: "Kontakt" },
   ];
 
   const showMenu = () => {

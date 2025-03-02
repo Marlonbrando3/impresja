@@ -25,12 +25,12 @@ export default function QandaComponent({ data, items }: Question) {
   return (
     <>
       <div className="flex border-t border-[#e4c27e] items-center my-[3px] py-[20px]">
-        <div
+        <h2
           onClick={() => handlingQANDA(data.id)}
           id={data.id}
           className="w-full h-[40px] flex items-center font-bold lg:text-[20px] text-[18px] pl-[10px] leading-[24px] cursor-pointer py-[30px] md:py-0"
           dangerouslySetInnerHTML={{ __html: data.topic }}
-        ></div>
+        ></h2>
         <IoMdArrowDropdown
           id={data.id}
           className="w-[40px] h-[40px] cursor-pointer hidden lg:block text-orange-400"

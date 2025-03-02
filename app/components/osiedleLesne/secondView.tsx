@@ -10,26 +10,26 @@ export default function SecondView() {
     >
       <div className="md:w-[1020px] w-full h-full border-gray-600 mx-auto flex justify-start items-start flex-wrap">
         <div className=" flex flex-col md:w-[50%] h-[50%] w-full mx-auto">
-          <p className="text-[28px] md:w-[360px] w-full leading-[35px] text-[#723C19] mb-[30px] ">
-            Kameralna inwestycja blisko centrum i zieleni
+          <p className="text-[38px] md:w-[400px] w-full leading-[37px] text-[#723C19] mb-[30px] ">
+            Kameralny projekt <h2>mnieszkań w Sycowie</h2> blisko centrum i zieleni
           </p>
           <p className="text-[18px] leading-[24px] mx-auto ">
             Inwestycja powstająca w najlepszej lokalizacji w Sycowie. Wybierając Osiedle Leśne,
             wybieramy ciszę, kameralną zabudowę i wyjątkową dostępność do infrastruktury miasta.
             <br></br>
             <br></br>
-            Bezpośrednio obok i w dystansie krórkiego spaceru mamy Park w Sycowie, centrum handlowe
-            oraz popularne sklepy i markety tj. Lidl, Żabka, Netto, Martes itd. Dystans 1 km do
-            drogi ekspresowej S8 zapewnia ciszę na osiedlu oraz dobrą komunikację z innymi miastami,
-            głównie z Wrocławiem.
+            Bezpośrednio obok i w dystansie krótkiego spaceru dotrzemy do Parku w Sycowie, centrum
+            handlowego oraz popularnych sklepów i marketów tj. Lidl, Żabka, Netto, Martes itd.
+            Dystans 1 km do drogi ekspresowej S8 zapewnia ciszę na osiedlu, a zarazem doskonałą
+            komunikację z innymi miastami, głównie z Wrocławiem, Kępnem czy Oleśnicą.
           </p>
         </div>
         <div className="border w-[40%] h-[50%] relative rounded-xl overflow-hidden hidden md:block">
           <Image
-            src="/nieruchomosci_sycow_secondview_1.jpg"
+            src="/mieszkania-na-sprzedaz-sycow-1.jpg"
             fill
             objectFit="cover"
-            alt="nieruchomości_syców"
+            alt="nowe-mieszkania-sycow"
           ></Image>
         </div>
         <div className="md:w-[70%] w-full bg-yellow-400 h-[300px] relative mx-auto md:-mt-[140px] border-4 border-white rounded-xl overflow-hidden">

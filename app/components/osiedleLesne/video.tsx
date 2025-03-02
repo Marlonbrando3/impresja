@@ -27,8 +27,12 @@ export default function Video() {
     <>
       <div id="video" className="lg:w-[1020px] w-[90vw] pt-[80px] border-gray-600 mx-auto">
         {" "}
-        <p className="text-[28px] w-full leading-[35px] text-[#723C19] mx-auto mb-[30px] float-left">
-          Projekt z lotu ptaka
+        <p className="text-[42px] w-full leading-[35px] text-[#723C19] mx-auto float-left mb-[10px]">
+          Osiedle leśne z lotu ptaka
+        </p>
+        <p className="text-[18px] w-full md:w-[600px] leading-[18px] text-yellow-700 mx-auto mb-[30px] float-left">
+          Poznaj dokładną lokalizację wraz z otoczeniem oraz infrastrukturą tego wyjątkowego
+          projektu <strong>mieszkań w Sycowie.</strong>
         </p>
         <div className="relative lg:w-[1000px] w-full rounded-xl overflow-hidden">
           {showedVideo === true && (

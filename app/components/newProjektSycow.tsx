@@ -50,7 +50,7 @@ export default function NewProjektSycow() {
         </div>
       </div>
       <Link
-        href="/nieruchomosci_sycow_osiedle_lesne"
+        href="/nowe-mieszkania-sycow"
         className="bg-[#dcb15c] text-white mt-[55px] inline-block px-[10px] text-[24px] shadow-xl rounded-md border-2 border-white"
       >
         Sprawdź

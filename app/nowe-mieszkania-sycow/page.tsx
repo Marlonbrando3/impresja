@@ -18,7 +18,7 @@ export default function Page() {
   return (
     <>
       <Head>
-        <title>Nieruchomości Syców - nowe domy oraz mieszkania</title>
+        <title>Nowe domy oraz mieszkania - neiruchomości Syców</title>
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin=""></link>
         <link
